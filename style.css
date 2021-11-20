@@ -8,34 +8,25 @@ body {
 
 /* SABIT CSS */
 
-.h1 {
+.h40 {
     font-size: 40px;
-    margin-bottom: 22px;
 }
-.h2 {
+.h30 {
     font-size: 30px;
-    margin-bottom: 22px;
 }
-.h3 {
-    font-size: 26px;
-    margin-bottom: 22px;
+.h20 {
+    font-size: 20px;
 }
-.h4 {
-    font-size: 22px;
-    margin-bottom: 18px;
-}
-.h5 {
+.h18 {
     font-size: 18px;
-    margin-bottom: 18px;
 }
-.h6 {
+.h16 {
     font-size: 16px;
-    margin-bottom: 16px;
 }
-.h7 {
-    font-size: 15px;
-    margin-bottom: 16px;
+.h14 {
+    font-size: 14px;
 }
+
 .bold{
     font-weight: bold;
 }
@@ -45,6 +36,10 @@ body {
 }
 .black {
     color: black;
+}
+
+.center {
+    text-align: center;
 }
 
 
@@ -130,6 +125,7 @@ body {
 
 /* MAIN */
 
+/* Resimli Kisim*/
 
 .main-image {
     max-width: 1500px;
@@ -183,9 +179,7 @@ body {
 
 
 
-
-
-/* deneme */
+/* Grammer Kismi*/
 
 
 
@@ -234,8 +228,6 @@ body {
     border-bottom: 0.5px solid rgb(173, 168, 168);
 }
 
-
-
 .button-menu{
     padding: 15px;
     margin: 0px 25px;
@@ -257,4 +249,47 @@ body {
 
 .button-menu a:hover{
     color: white;
+}
+
+/* FOOTER */
+
+.footer-menu {
+    height: 170px;
+    background-color: #222222;
+    max-width: 1500px;
+    margin: 10px auto 20px ;
+    padding: 50px 50px;
+    border-radius: 8px;
+}
+.footer-menu-alt {
+    display: flex;    
+    justify-content: space-around;
+}
+
+.footer-container ul  {
+    margin:25px 0;
+    padding:0px;
+}
+
+.footer-container ul li {
+    list-style-type: none;
+    margin:8px 0;
+    padding:0px;
+    font-size: 14px;
+    color: grey;
+}
+
+.sosyalmedya{
+    display: flex;
+    gap: 10px;
+    margin: 25px;
+}
+
+.sosyalmedya li{
+    margin: 0px 13px;
+}
+
+.copyright p{
+    margin: 0px 13px;
+    color: rgb(199, 195, 195);
 }
