@@ -101,6 +101,39 @@
                     </div>
               </div>
             </section>
+
+            <section class="form-menu">
+                    <div>
+                        <label>Vorname<br><input type="text" name="name" required placeholder="enter your name" id="name"
+                                class="form-name" ></label><br><br />
+                        <!-- Bu şekilde Label ile input aynı satıra yazılır ise For ve id arasında eşleşme yapılmasına gerek yok -->
+                    </div>
+                    <div>
+                        <label>Nachname<br><input type="text" name="name" required placeholder="enter your name" id="name"
+                                class="form-name" ></label><br><br />
+                        <!-- Bu şekilde Label ile input aynı satıra yazılır ise For ve id arasında eşleşme yapılmasına gerek yok -->
+                    </div>
+                    <div>
+                        <label for="Email">Email<br><input type="email" name="email" placeholder="enter your Email"
+                                id="Email" class="form-name" /></label><br /><br>
+                        <!-- burada type email yazmanın avantajı şudur: email içine bir kelime yazıp @ kullanmaz isek uyarı veriri. email formunda yaz diye uyarı veriri bize -->
+                    </div>
+
+                    <div>
+                        <label for="Feedback">Feed back</label><br>
+                        <textarea name="Feedback" id="Feedback" cols="48" rows="5"
+                            placeholder="any comment"></textarea><br /><br />
+                    </div>
+
+                    <div>
+                        <br /><label for="Movie">Movie type</label><br />
+                        <label for="com"><input type="checkbox" name="film1" value="Comedy" id="com" />Hiermit bestätigst du unsere Datenschutzerklärung gelesen und verstanden zu haben.</label><br />
+        
+                    </div>
+
+                    <button class="button-menu bold h16"><a href="pages/c1page.html">Anmelden</a></button>
+                </div>
+            </section>
     
         
     </main>
@@ -109,12 +142,12 @@
             <div class="footer-menu-alt">
                 <div class="footer-container white">
                     <b>Sayfalar</b>
-                    <ul>
-                        <li>Ana Sayfa</li>
-                        <li>Hakkımızda</li>
-                        <li>Çalışmalarımız</li>
-                        <li>Referanslarımız</li>
-                        <li>İletişim</li>
+                    <ul id="footer-list">
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="#footer-list">Hakkımızda</a></li>
+                        <li><a href="#">Çalışmalarımız</a></li>
+                        <li><a href="#">Referanslarımız</a></li>
+                        <li><a href="#">İletişim</a></li>
                     </ul>
                 </div>
                 <div class="footer-container white">
@@ -123,7 +156,7 @@
                         <li>Talha Ülkümen</li>
                         <li>C: +49 152 152 52 52</li>
                         <li>T: 0 232 232 32 32</li>
-                        <li>M: talhatalha@gmsil.com</li>
+                        <li>M: talhatalha@gmail.com</li>
                     </ul>
                 </div>
                 <div class="footer-container white">

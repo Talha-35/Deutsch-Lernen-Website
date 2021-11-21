@@ -191,7 +191,7 @@ body {
     display: flex;
     gap: 20px;
     justify-content: space-around;
-    background-color: burlywood;
+    background-color: rgb(204, 204, 203);
 }
 
 .container-grammer{
@@ -251,12 +251,30 @@ body {
     color: white;
 }
 
+/*Form*/
+
+.form-menu{
+    margin-top: 40px;
+    padding: 80px 0px;
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgb(189, 189, 127);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-name{
+    width:350px;
+    padding: 10px;
+}
+
 /* FOOTER */
 
 .footer-menu {
     height: 170px;
     background-color: #222222;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 10px auto 20px ;
     padding: 50px 50px;
     border-radius: 8px;
@@ -292,4 +310,16 @@ body {
 .copyright p{
     margin: 0px 13px;
     color: rgb(199, 195, 195);
+}
+
+.copyright p a{
+    text-decoration:none;
+    color: aqua;
+}
+#footer-list li a{
+    text-decoration:none;
+    color: rgb(199, 195, 195);
+}
+#footer-list li a:hover{
+    color: aqua;
 }
