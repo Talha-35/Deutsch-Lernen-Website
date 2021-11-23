@@ -24,8 +24,8 @@
             <div id="navbar-list">
                 <ul>
                     <li class="navbar-list"><a href="pages/hakkimizda.html">Home</a></li>
-                    <li class="navbar-list"><a href="#">Deutsch Lektionen</a></li>
-                    <li class="navbar-list"><a href="#">Contact</a></li>
+                    <li class="navbar-list"><a href="#grammer-menu">Deutsch Lektionen</a></li>
+                    <li class="navbar-list"><a href="#footer-menu">Contact</a></li>
                     <li class="navbar-list"><a href="pages/about.html">About</a></li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
         </section>
         
         <section>
-            <div class="grammer-menu">
+            <div id="grammer-menu" class="grammer-menu">
                     <div class="container-grammer">
                         <img src="./assets/brandenburger-tor3.jpg" alt=""  class="image-burger" width="375px" height="220px">
                         <div class="grammer-konular">
@@ -102,33 +102,45 @@
               </div>
             </section>
 
+            <section class="mobile-menu">
+
+                <div class="mobile-1">
+                    <img src="./assets/mobile1.png" alt="" >
+                </div>
+
+                <div class="mobile-2">
+                    <img src="./assets/googleplay1.jpg" width="100%" height="50%" alt="" >
+                    <p><a href="https://play.google.com/store/apps/details?id=com.deutschlernen11&hl=de&gl=US">Almanca ögrenmek icin mobile Aplikasyonu indirebilirsiniz.</a></p>
+                </div>
+
+                <div class="mobile-3">
+                    <img src="./assets/mobile2.png" alt="" >
+                </div>
+
+            </section>
+
             <section class="form-menu">
-                    <div>
-                        <label>Vorname<br><input type="text" name="name" required placeholder="enter your name" id="name"
-                                class="form-name" ></label><br><br />
-                        <!-- Bu şekilde Label ile input aynı satıra yazılır ise For ve id arasında eşleşme yapılmasına gerek yok -->
+                    <div class="form-menu-label">
+                        <label>Vorname *<br><input type="text" name="name" required placeholder="Dein Vorname" id="name" class="form-name" ></label>
                     </div>
-                    <div>
-                        <label>Nachname<br><input type="text" name="name" required placeholder="enter your name" id="name"
-                                class="form-name" ></label><br><br />
-                        <!-- Bu şekilde Label ile input aynı satıra yazılır ise For ve id arasında eşleşme yapılmasına gerek yok -->
+                    <div class="form-menu-label">
+                        <label>Nachname *<br><input type="text" name="name" required placeholder="Dein Nachname" id="name" class="form-name" ></label>
                     </div>
-                    <div>
-                        <label for="Email">Email<br><input type="email" name="email" placeholder="enter your Email"
-                                id="Email" class="form-name" /></label><br /><br>
-                        <!-- burada type email yazmanın avantajı şudur: email içine bir kelime yazıp @ kullanmaz isek uyarı veriri. email formunda yaz diye uyarı veriri bize -->
+                    <div class="form-menu-label">
+                        <label for="Email">E-Mail *<br><input type="email" name="email" placeholder="Deine E-Mail" id="Email" class="form-name" /></label>
+                    </div>
+                    <div class="form-menu-label">
+                        <label for="Betreff ">Betreff  *<br><input type="Betreff " name="Betreff " placeholder="Betreff " id="Betreff " class="form-name" /></label>
                     </div>
 
-                    <div>
-                        <label for="Feedback">Feed back</label><br>
-                        <textarea name="Feedback" id="Feedback" cols="48" rows="5"
-                            placeholder="any comment"></textarea><br /><br />
+                    <div class="form-menu-label">
+                        <label for="Nachricht">Nachricht</label><br>
+                        <textarea name="Nachricht" id="Nachricht" cols="82" rows="8" placeholder="Bitte schreiben Sie Ihre Kommentare "></textarea>
+                        <p>0 / 2000</p>
                     </div>
 
-                    <div>
-                        <br /><label for="Movie">Movie type</label><br />
-                        <label for="com"><input type="checkbox" name="film1" value="Comedy" id="com" />Hiermit bestätigst du unsere Datenschutzerklärung gelesen und verstanden zu haben.</label><br />
-        
+                    <div class="form-menu-label">
+                        <label for="com"><input type="checkbox" name="datenschutz" value="datenschutz" id="com" />Hiermit bestätigst du unsere Datenschutzerklärung gelesen und verstanden zu haben.</label>
                     </div>
 
                     <button class="button-menu bold h16"><a href="pages/c1page.html">Anmelden</a></button>
@@ -138,7 +150,7 @@
         
     </main>
     <footer>
-        <div class="footer-menu">
+        <div id="footer-menu" class="footer-menu">
             <div class="footer-menu-alt">
                 <div class="footer-container white">
                     <b>Sayfalar</b>
