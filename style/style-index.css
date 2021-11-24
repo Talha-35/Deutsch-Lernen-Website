@@ -241,10 +241,11 @@ body {
 
 .button-menu{
     padding: 15px;
-    margin: 0px 25px;
+    /* margin: 0px 25px; */
+    margin-top: 10px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #444;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 .button-menu a{
@@ -270,16 +271,21 @@ body {
     background-color: rgb(216, 210, 210);
     max-width: 1500px;
     margin: 10px auto;    
-    height: 900px;
+    height: 1100px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
 }
-.mobile-menu-title{
+.mobile-menu-title-1{
     /* background-color: khaki; */
+    text-shadow: 2px 3px 5px gray;
 }
 .mobile-menu-title-2{
-    padding-bottom: 20px;
+    padding: 0px 100px 20px;
+    line-height:35px;
+    font-size: 19px;
+    text-shadow: 1px 1px 10px rgb(192, 190, 190);
+
 }
 
 .mobile-menu{    
@@ -375,6 +381,30 @@ body {
 .form-menu-label{    
     margin: 10px 0px;
 }
+.form-menu-label textarea{
+    text-indent: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form-menu-label textarea::placeholder {
+    font-size: 20px;  
+    padding-top: 15px;
+}
+
+.form-menu-label label input{    
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+
+.form-menu-label label input::placeholder{    
+    font-size: 18px;
+}
+
+.form-menu-label label{    
+    font-size: 18px;
+    margin: 15px 0px;
+}
 
 .form-menu-label p{    
     margin-top: 0px;
@@ -382,7 +412,7 @@ body {
 
 .form-name{
     width:600px;
-    padding: 10px;
+    padding: 13px;
     margin-top: 2px;
 }
 

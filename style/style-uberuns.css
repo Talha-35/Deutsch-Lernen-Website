@@ -4,52 +4,55 @@
     height: 100vh;
     /* background-color: pink; */
 }
-
 .container{
-        background-color: #FFFFFF;
-        margin: 10px auto;    
-        border-radius: 8px;
-        display: flex;
-        /* height : 100vh */
+    background-color: #FFFFFF;
+    margin: 10px auto;    
+    border-radius: 8px;
+    display: flex;
+    /* height : 100vh */
 }
 
 .container p{
-        font-size: 20px;
+    font-size: 20px;
     
 }
 
 .container-1{
     width: 50%;
-        /* background-color: rgb(226, 226, 207); */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 5px;
-
-        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.container-1 img{
+    width: 50%;
+    border: 1px solid rgb(133, 130, 130);
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
     }
 
 .container-2{
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        /* align-items: center; */
-        justify-content: space-around;
-        line-height:40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height:40px;
 }
 
 #paragraf-1{
     font-weight: bold;
     font-size: 40px;
+    text-shadow: 5px 2px 3px #ccc;
 }
 #alt-cizgi-kirmizi{
     border-bottom: 3px solid rgb(211, 205, 205);
-    /* margin-top: 0px; */
     border-color: red;
     width: 150px;
 }
 .container-2-button{
-        margin-top: 5%;
+    margin-top: 5%;
 }
 
 .container-2-aciklama a{
@@ -63,17 +66,20 @@
 
 .container-2-button a{
     color: white;
-       text-decoration: none;
-       padding: 10px;
-       background-color: #222222;
-       border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #222222;
+    border-radius: 5px;
+    letter-spacing: 3px;
+
 }
 .container-2-button a:hover{
-        color: white;
-       background-color: #222222;
+    color: white;
+    background-color: #222222;
 }
 
 .uberuns-alt-cizgi{
-    border-bottom: 0.5px solid rgb(211, 205, 205);
+    border-bottom: 0.5px solid rgb(189, 188, 188);
     margin-top: 0px;
 }
+
