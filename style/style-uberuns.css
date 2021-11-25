@@ -4,6 +4,11 @@
     height: 100vh;
     /* background-color: pink; */
 }
+/* .header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+} */
 .container{
     background-color: #FFFFFF;
     margin: 10px auto;    
@@ -46,11 +51,17 @@
     font-size: 40px;
     text-shadow: 5px 2px 3px #ccc;
 }
+
+#paragraf-2{
+    padding-right: 100px;
+}
+
 #alt-cizgi-kirmizi{
     border-bottom: 3px solid rgb(211, 205, 205);
     border-color: red;
     width: 150px;
 }
+
 .container-2-button{
     margin-top: 5%;
 }
