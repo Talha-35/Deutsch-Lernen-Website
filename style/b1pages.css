@@ -2,27 +2,81 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(190, 179, 165);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-    /* ALLTAGSDEUTSCH*/
 
-#alltagsdeutsch-container{
-    max-width: 2200px;
+
+    /* ALLTAGSDEUTSCH*/
+    
+    #alltagsdeutsch-container{
+    max-width: 1800px;
     margin: 0px auto;
 }
 
 .alltagsdeutsch-title {
-    padding: 10px 0px;
-    background-color: rgb(95, 47, 47);
+    padding: 5px 0px;
     color: white;
 }
 #alltagsdeutsch-title {
-    padding: 10px 0px;
-    background-color: rgb(95, 47, 47);
+    padding: 0px 0px;
     color: white;
 }
 
 #alltagsdeutsch-container p{
-    font-size: 18px;
+    font-size: 19px;
 }
+
+.paragraf {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.paragraf1{
+    width: 50%;
+    border-bottom: 1px dotted gray;
+    border-right: 0.5px dotted gray;
+    padding: 0px 5px;
+}
+.paragraf2{
+    width: 50%;
+    border-bottom: 1px dotted gray;
+    padding: 0px 5px;
+}
+
+#alltagsdeutsch-title-div {
+    background-color: rgb(95, 47, 47);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+#alltagsdeutsch-title-div1 {
+    background-color: rgb(95, 47, 47);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 10px;
+}
+
+/* BUTTON*/
+
+.button-alltags{
+    background-color: rgb(214, 200, 200);
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.button-alltags:hover{
+    background-color: #9e7662;
+    color: white;
+}
+
 

@@ -4,44 +4,6 @@ body {
     padding: 0;
 }
 
-/* SABIT CSS */
-
-.h40 {
-    font-size: 40px;
-}
-.h35 {
-    font-size: 35px;
-}
-.h30 {
-    font-size: 30px;
-}
-.h25 {
-    font-size: 25px;
-}
-.h20 {
-    font-size: 20px;
-}
-.h18 {
-    font-size: 18px;
-}
-.h16 {
-    font-size: 16px;
-}
-.h14 {
-    font-size: 14px;
-}
-.bold{
-    font-weight: bold;
-}
-.white {
-    color: white;
-}
-.black {
-    color: black;
-}
-.center {
-    text-align: center;
-}
 
 
 /* HEADER */
