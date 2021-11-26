@@ -1,67 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(190, 179, 165);
+    background-color: rgb(209, 206, 202);
     font-family: Arial, Helvetica, sans-serif;
-
-}
-
-
-
-    /* ALLTAGSDEUTSCH*/
-    
-    #alltagsdeutsch-container{
-    max-width: 1800px;
-    margin: 0px auto;
-}
-
-.alltagsdeutsch-title {
-    padding: 5px 0px;
-    color: white;
-}
-#alltagsdeutsch-title {
-    padding: 0px 0px;
-    color: white;
-}
-
-#alltagsdeutsch-container p{
-    font-size: 19px;
-}
-
-.paragraf {
-    max-width: 1800px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-start;
-}
-.paragraf1{
-    width: 50%;
-    border-bottom: 1px dotted gray;
-    border-right: 0.5px dotted gray;
-    padding: 0px 5px;
-}
-.paragraf2{
-    width: 50%;
-    border-bottom: 1px dotted gray;
-    padding: 0px 5px;
-}
-
-#alltagsdeutsch-title-div {
-    background-color: rgb(95, 47, 47);
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 25px;
-}
-#alltagsdeutsch-title-div1 {
-    background-color: rgb(95, 47, 47);
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 25px;
-    margin-top: 10px;
 }
 
 /* BUTTON*/
@@ -70,7 +11,7 @@ body{
     background-color: rgb(214, 200, 200);
     padding: 10px;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: rgb(0, 0, 0);
     border-radius: 5px;
 }
@@ -79,4 +20,88 @@ body{
     color: white;
 }
 
+
+    /* ALLTAGSDEUTSCH*/
+    
+#alltagsdeutsch-container{
+    max-width: 1800px;
+    margin: 0px auto;
+}
+
+#alltagsdeutsch-title-div {
+    background-color: rgb(109, 73, 73);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+#alltagsdeutsch-title-div1 {
+    background-color: rgb(109, 73, 73);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 10px;
+}
+
+.alltagsdeutsch-title {
+    padding: 5px 0px;
+    color: white;
+}
+
+.paragraf {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.paragraf:nth-child(even) {
+    background-color: rgb(197, 194, 191);
+
+}
+.paragraf1{
+    width: 50%;
+    border-bottom: 1px dotted gray;
+    border-right: 0.5px dotted gray;
+    padding: 0px 5px;
+    font-size: 19px;
+}
+.paragraf2{
+    width: 50%;
+    border-bottom: 1px dotted gray;
+    padding: 0px 5px;
+    font-size: 19px;
+}
+
+
+ /* B1 Briefe*/
+ #b1briefe-container{
+     display: flex;
+     flex-direction: column;
+    padding: 25px 0px;
+    }
+    .b1briefe-container-1{
+        display: flex;
+/* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 10px;
+}
+.alt-menu-brief{
+    background-color: rgb(195, 199, 199);
+    border: 0.3px solid rgb(186, 180, 180);
+    width: 30%;
+    /* height: 680px; */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.alt-menu-brief p{
+   font-size: 17px;
+  
+}
 
