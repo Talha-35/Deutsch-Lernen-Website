@@ -5,6 +5,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.button-b1pages{
+  background-color: rgb(65, 47, 47);
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 20px;
+}
+
+.button-b1pages:hover {
+  background-color: #9e7662;
+  color: rgb(24, 18, 18);
+}
+
 /* BUTTON*/
 
 .button-alltags {
@@ -75,6 +92,7 @@ body {
 }
 
 /* B1 Briefe*/
+
 #b1briefe-container {
   display: flex;
   flex-direction: column;
@@ -91,12 +109,134 @@ body {
 .alt-menu-brief {
   background-color: rgb(195, 199, 199);
   border: 0.3px solid rgb(186, 180, 180);
+  box-shadow: 1px 1px 1px rgb(71, 71, 71);
   width: 30%;
   /* height: 680px; */
   padding: 10px;
   margin-bottom: 10px;
+  border-radius: 3px;
+
 }
 
 .alt-menu-brief p {
   font-size: 17px;
+}
+
+/* B1 Wichtig Werben*/
+
+#b1wichtigwerben-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px;
+}
+#b1wichtigwerben-alt-container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+  
+}
+.alt-menu-wichtigwerb{
+  background-color: rgb(195, 199, 199);
+  border: 0.3px solid rgb(186, 180, 180);
+  box-shadow: 1px 1px 2px rgb(71, 71, 71);
+  width: 17%;
+  /* height: 680px; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.alt-menu-wichtigwerb p {
+  font-size: 17px;
+}
+.alt-menu-wichtigwerb p:nth-child(1) {
+  font-size: 22px;
+  color: blueviolet;
+}
+.alt-menu-wichtigwerb p:nth-child(2) {
+  border-bottom: 1px solid rgb(179, 174, 174);
+  padding-bottom: 15px;
+}
+
+
+/* Indem - Dadurch Dass*/
+
+.alt-cizgi {
+  border-bottom: 0.5px solid rgb(87, 82, 82);
+  width: 15%;
+}
+.alt-cizgi-kln {
+  border-bottom: 5px solid rgb(138, 132, 132);
+}
+
+#indem-container {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+#indem-container p {
+  font-size: 19px;
+  line-height: 28px;
+}
+#indem-container p:nth-child(2) {
+  font-size: 15px;
+}
+#peregref-1{
+  font-size: 25px;
+}
+
+/* Konjunktion*/
+
+#konjunktion-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px;
+}
+
+.alt-cizg-konjunktion {
+  border-bottom: 0.5px solid rgb(133, 126, 126);
+  width: 90%;
+  margin: 0 Auto;
+}
+
+.konjunktion-container-1 {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+.alt-menu-konjunktion {
+  background-color: rgb(195, 199, 199);
+  border: 0.3px solid rgb(186, 180, 180);
+  box-shadow: 1px 1px 1px rgb(71, 71, 71);
+  width: 30%;
+  /* height: 680px; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+
+}
+
+.alt-menu-konjunktion p {
+  font-size: 18px;
+}
+.alt-menu-konjunktion p:nth-child(1) {
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+color: rgb(219, 64, 64);
+}
+.alt-menu-konjunktion p:nth-child(2) {
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+}
+.alt-menu-konjunktion p:nth-child(3) {
+text-align: center;
+font-weight: bold;
+font-size: 20px;
 }
