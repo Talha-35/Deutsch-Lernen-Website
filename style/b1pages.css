@@ -159,6 +159,7 @@ body {
 .alt-menu-wichtigwerb p:nth-child(2) {
   border-bottom: 1px solid rgb(179, 174, 174);
   padding-bottom: 15px;
+  font-style: italic;
 }
 
 
@@ -184,7 +185,7 @@ body {
   font-size: 15px;
 }
 #peregref-1{
-  font-size: 25px;
+  /* font-size: 25px; */
 }
 
 /* Konjunktion*/
@@ -239,4 +240,96 @@ font-size: 20px;
 text-align: center;
 font-weight: bold;
 font-size: 20px;
+}
+
+/*Relativsätze - Relativpronomen*/
+
+.alt-cizgi2-konjunktion {
+  border-bottom: 0.5px solid rgb(167, 163, 163);
+  width: 15%;
+}
+.alt-cizgi-kln {
+  border-bottom: 5px solid rgb(138, 132, 132);
+}
+
+#indem-container {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+#indem-container p {
+  font-size: 20px;
+  line-height: 28px;
+}
+.relativ-alt-title{
+  color: rgb(59, 90, 30);
+  font-size: 21px;
+}
+
+/*Relativsätze - Relativpronomen*/
+
+#b1starkewerben-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px;
+}
+#b1starkewerben-alt-container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+  
+}
+.alt-menu-starkewerb{
+  background-color: rgb(195, 199, 199);
+  border: 0.3px solid rgb(186, 180, 180);
+  box-shadow: 1px 1px 2px rgb(71, 71, 71);
+  width: 17%;
+  /* height: 680px; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.alt-menu-starkewerb p {
+  font-size: 17px;
+}
+.alt-menu-starkewerb p:nth-child(1) {
+  font-size: 22px;
+  color: blueviolet;
+}
+.alt-menu-starkewerb p:nth-child(2) {
+  border-bottom: 1px solid rgb(179, 174, 174);
+  padding-bottom: 15px;
+  font-style: italic;
+}
+
+/* Zeitformen */
+
+
+#zeitformen-container {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+#zeitformen-container p {
+  font-size: 19px;
+  line-height: 28px;
+}
+#zeitformen-container p:nth-child(2) {
+  font-size: 15px;
+}
+
+.relativ-alt-title{
+  color: rgb(59, 90, 30);
+  font-size: 21px;
+}
+
+.alt-cizgi2-zeitformen {
+  border-bottom: 0.5px solid rgb(167, 163, 163);
+  width: 25%;
+}
+.alt-cizgi3-zeitformen {
+  border-bottom: 0.5px solid rgb(167, 163, 163);
+  width: 100%;
 }
