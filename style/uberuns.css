@@ -8,10 +8,9 @@ body {
 
 /* HEADER */
 
-
+/*
 #header {
     display: flex;
-    /* justify-content: center; */
     background-color: rgb(99, 92, 92);
     background-color: #4682b4;
     background-color: #383a3a;
@@ -25,7 +24,6 @@ body {
     width: 1500px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 #navbar-logo {
     display: flex;
@@ -68,7 +66,6 @@ body {
 #navbar-list ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    /* color: black; */
     padding: 10px 12px;
     display: block;
     background-color: transparent;
@@ -77,9 +74,8 @@ body {
 #navbar-list ul li a:hover {
     background-color: rgb(11, 74, 126);
     background-color: rgb(33, 34, 36);
-    /* color: #e2c58f; */
     border-radius: 3px;
-    color: #84D19F;    /* transition: background-color .25s ease-in-out, color .25s ease-in-out; */
+    color: #84D19F;   
     color: white;    
     color: #c76363;
 
@@ -98,7 +94,6 @@ body {
     text-shadow: 1px 1px 1px black;
 }
 .navbar-list a:hover{
-    /* font-weight: bold; */
     color: rgb(99, 138, 46);
     color: rgb(255, 255, 255);
 }
@@ -130,7 +125,6 @@ body {
     z-index: 1;
     color: white;
     padding-left: 0px;
-    /* padding-top: 10px; */
     left: 230px;
     top: 0px;
     width: 280px;
@@ -210,16 +204,12 @@ body {
 #navbar-login ul li a:hover{
     color: white;
 }
-
+*/
 
 
 /* MAIN */
 
 
-.main-container{
-    /* height: 50vh; */
-    padding-top: 60px;
-}
 .container{
     background-color: #FFFFFF;
     /* margin: 10px auto;     */
@@ -254,37 +244,33 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    line-height:40px;
+    justify-content: space-between;
+    line-height:35px;
 }
 
-#paragraf-1{
+#absatz-1{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     text-shadow: 5px 2px 3px #ccc;
 }
 
-#paragraf-2{
+#absatz-2{
     padding-right: 100px;
 }
 
-#alt-cizgi-kirmizi{
-    border-bottom: 3px solid rgb(211, 205, 205);
-    border-color: red;
-    width: 150px;
-}
+
 
 
 .container-2-button{
     margin-top: 5%;
 }
 
-.container-2-aciklama a{
+.container-2-erklärung a{
     text-decoration: none;
     color: rgb(56, 55, 55);
     font-size: 20px;
 }
-.container-2-aciklama p{
+.container-2-erklärung p{
     color: rgb(56, 55, 55);
 }
 
@@ -302,7 +288,7 @@ body {
     background-color: #222222;
 }
 
-.uberuns-alt-cizgi{
+.uberuns-unterstreichen{
     border-bottom: 0.5px solid rgb(189, 188, 188);
     margin-top: 0px;
 }
@@ -334,15 +320,15 @@ body {
     font-size: 14px;
     color: grey;
 }
-.sosyalmedya{
+.sozialen-medien{
     display: flex;
     gap: 10px;
     /* margin: 25px; */
 }
-.sosyalmedya li a img{
+.sozialen-medien li a img{
     border-radius: 10px;
 }
-/* .sosyalmedya li{
+/* .sozialen-medien li{
     margin: 0px 10px;
 } */
 

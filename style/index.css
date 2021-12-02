@@ -286,15 +286,15 @@ body {
   filter: blur(0.7px);
 }
 
-.grammer-konular {
+.grammatik-themen {
   padding: 0px 20px;
 }
 
-.grammer-konular p a {
+.grammatik-themen p a {
   text-decoration: none;
   color: black;
 }
-.grammer-konular p a:hover {
+.grammatik-themen p a:hover {
   color: rgb(247, 1, 1);
   font-weight: bold;
   background-color: rgb(231, 216, 216);
@@ -303,14 +303,14 @@ body {
   border-radius: 8px;
 }
 
-.grammer-konular-baslik {
+.grammatik-themen-titel {
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
-.alt-cizgi {
+.unterstreichen {
   border-bottom: 0.5px solid rgb(211, 205, 205);
 }
 
@@ -373,7 +373,7 @@ body {
   justify-content: center;
 }
 .mobile-1 img {
-  width: 80%;
+  max-width: 80%;
   border-radius: 5px;
 }
 .mobile-1 img:hover {
@@ -414,7 +414,7 @@ body {
   justify-content: center;
 }
 .mobile-3 img {
-  width: 80%;
+  max-width: 80%;
   border-radius: 5px;
 }
 .mobile-3 img:hover {
@@ -493,15 +493,15 @@ body {
   font-size: 14px;
   color: grey;
 }
-.sosyalmedya {
+.sozialmedia {
   display: flex;
   gap: 10px;
   /* margin: 25px; */
 }
-.sosyalmedya li a img {
+.sozialmedia li a img {
   border-radius: 10px;
 }
-/* .sosyalmedya li{
+/* .sozialmedia li{
     margin: 0px 10px;
 } */
 
@@ -521,4 +521,82 @@ body {
 }
 #footer-list li a:hover {
   color: aqua;
+}
+
+
+/*Small Devices */
+ @media (max-width : 375px) {
+  #image {
+    border-radius: 8px;
+    max-width: 100%;
+    height: 800px;
+  }
+  #navbar-list ul li:nth-child(1){
+    display: none;
+  }
+  #navbar-list ul li:nth-child(3){
+    display: none;
+  }
+  #navbar-list ul li:nth-child(4){
+    display: none;
+  }
+  #navbar-login ul li {
+    display: none;
+  }
+  .grammer-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .main-image {
+    width: 100%;
+    margin: 20px auto 25px;
+  }
+  #image {
+    border-radius: 8px;
+    width: 800px;
+    height: 400px;
+  } 
+
+}
+ @media (max-width : 576px) {
+ 
+}
+
+/* Normal Devices */
+@media (max-width : 768px) {
+  
+}
+/* Mobile Devices */
+@media (max-width : 992px) {
+  
+}
+
+/* X-Large Devices */
+@media (max-width : 1200px) {
+  
+}
+
+/* XX-Large Devices */
+@media (max-width : 1400px) {
+  
+}
+
+
+/* ------ */
+@media (aspect-ratio : 32/10) {
+  
+}
+
+@media (min-aspect-ratio : 32/10) {
+  
+}
+
+@media (orientation : portrait) {
+  
+}
+
+@media (orientation : landscape) {
+  
 }
