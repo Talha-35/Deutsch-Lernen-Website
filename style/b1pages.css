@@ -67,24 +67,24 @@ body {
   color: white;
 }
 
-.paragraf {
+.absatz-alltagsdeutsch {
   max-width: 1800px;
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
 }
 
-.paragraf:nth-child(even) {
+.absatz-alltagsdeutsch:nth-child(even) {
   background-color: rgb(197, 194, 191);
 }
-.paragraf1 {
+.absatz-alltagsdeutsch1 {
   width: 50%;
   border-bottom: 1px dotted gray;
   border-right: 0.5px dotted gray;
   padding: 0px 5px;
   font-size: 19px;
 }
-.paragraf2 {
+.absatz-alltagsdeutsch2 {
   width: 50%;
   border-bottom: 1px dotted gray;
   padding: 0px 5px;
@@ -106,7 +106,7 @@ body {
   width: 100%;
   margin-top: 10px;
 }
-.alt-menu-brief {
+.unter-menu-brief {
   background-color: rgb(195, 199, 199);
   border: 0.3px solid rgb(186, 180, 180);
   box-shadow: 1px 1px 1px rgb(71, 71, 71);
@@ -115,10 +115,9 @@ body {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 3px;
-
 }
 
-.alt-menu-brief p {
+.unter-menu-brief p {
   font-size: 17px;
 }
 
@@ -138,7 +137,7 @@ body {
   margin-top: 10px;
   
 }
-.alt-menu-wichtigwerb{
+.unter-menu-wichtigwerb{
   background-color: rgb(195, 199, 199);
   border: 0.3px solid rgb(186, 180, 180);
   box-shadow: 1px 1px 2px rgb(71, 71, 71);
@@ -149,14 +148,14 @@ body {
   border-radius: 3px;
 }
 
-.alt-menu-wichtigwerb p {
+.unter-menu-wichtigwerb p {
   font-size: 17px;
 }
-.alt-menu-wichtigwerb p:nth-child(1) {
+.unter-menu-wichtigwerb p:nth-child(1) {
   font-size: 22px;
   color: blueviolet;
 }
-.alt-menu-wichtigwerb p:nth-child(2) {
+.unter-menu-wichtigwerb p:nth-child(2) {
   border-bottom: 1px solid rgb(179, 174, 174);
   padding-bottom: 15px;
   font-style: italic;
@@ -165,11 +164,11 @@ body {
 
 /* Indem - Dadurch Dass*/
 
-.alt-cizgi {
+.unterstreichen {
   border-bottom: 0.5px solid rgb(87, 82, 82);
   width: 15%;
 }
-.alt-cizgi-kln {
+.unterstreichen-fett {
   border-bottom: 5px solid rgb(138, 132, 132);
 }
 
@@ -184,9 +183,6 @@ body {
 #indem-container p:nth-child(2) {
   font-size: 15px;
 }
-#peregref-1{
-  /* font-size: 25px; */
-}
 
 /* Konjunktion*/
 
@@ -196,7 +192,7 @@ body {
   padding: 25px 0px;
 }
 
-.alt-cizg-konjunktion {
+.unterstreichen-konjunktion {
   border-bottom: 0.5px solid rgb(133, 126, 126);
   width: 90%;
   margin: 0 Auto;
@@ -210,7 +206,7 @@ body {
   width: 100%;
   margin-top: 10px;
 }
-.alt-menu-konjunktion {
+.unter-menu-konjunktion {
   background-color: rgb(195, 199, 199);
   border: 0.3px solid rgb(186, 180, 180);
   box-shadow: 1px 1px 1px rgb(71, 71, 71);
@@ -222,21 +218,21 @@ body {
 
 }
 
-.alt-menu-konjunktion p {
+.unter-menu-konjunktion p {
   font-size: 18px;
 }
-.alt-menu-konjunktion p:nth-child(1) {
+.unter-menu-konjunktion p:nth-child(1) {
 text-align: center;
 font-weight: bold;
 font-size: 20px;
 color: rgb(219, 64, 64);
 }
-.alt-menu-konjunktion p:nth-child(2) {
+.unter-menu-konjunktion p:nth-child(2) {
 text-align: center;
 font-weight: bold;
 font-size: 20px;
 }
-.alt-menu-konjunktion p:nth-child(3) {
+.unter-menu-konjunktion p:nth-child(3) {
 text-align: center;
 font-weight: bold;
 font-size: 20px;
@@ -244,11 +240,11 @@ font-size: 20px;
 
 /*Relativsätze - Relativpronomen*/
 
-.alt-cizgi2-konjunktion {
+.unterstreichen2-konjunktion {
   border-bottom: 0.5px solid rgb(167, 163, 163);
   width: 15%;
 }
-.alt-cizgi-kln {
+.unterstreichen-fett {
   border-bottom: 5px solid rgb(138, 132, 132);
 }
 
@@ -260,7 +256,7 @@ font-size: 20px;
   font-size: 20px;
   line-height: 28px;
 }
-.relativ-alt-title{
+.relativ-unter-title{
   color: rgb(59, 90, 30);
   font-size: 21px;
 }
@@ -272,7 +268,7 @@ font-size: 20px;
   flex-direction: column;
   padding: 25px 0px;
 }
-#b1starkewerben-alt-container {
+#b1starkewerben-unter-container {
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
@@ -281,7 +277,7 @@ font-size: 20px;
   margin-top: 10px;
   
 }
-.alt-menu-starkewerb{
+.unter-menu-starkewerb{
   background-color: rgb(195, 199, 199);
   border: 0.3px solid rgb(186, 180, 180);
   box-shadow: 1px 1px 2px rgb(71, 71, 71);
@@ -292,14 +288,14 @@ font-size: 20px;
   border-radius: 3px;
 }
 
-.alt-menu-starkewerb p {
+.unter-menu-starkewerb p {
   font-size: 17px;
 }
-.alt-menu-starkewerb p:nth-child(1) {
+.unter-menu-starkewerb p:nth-child(1) {
   font-size: 22px;
   color: blueviolet;
 }
-.alt-menu-starkewerb p:nth-child(2) {
+.unter-menu-starkewerb p:nth-child(2) {
   border-bottom: 1px solid rgb(179, 174, 174);
   padding-bottom: 15px;
   font-style: italic;
@@ -320,16 +316,16 @@ font-size: 20px;
   font-size: 15px;
 }
 
-.relativ-alt-title{
+.zeitformen-unter-title{
   color: rgb(59, 90, 30);
   font-size: 21px;
 }
 
-.alt-cizgi2-zeitformen {
+.unterstreichen2-zeitformen {
   border-bottom: 0.5px solid rgb(167, 163, 163);
   width: 25%;
 }
-.alt-cizgi3-zeitformen {
+.unterstreichen-zeitformen {
   border-bottom: 0.5px solid rgb(167, 163, 163);
   width: 100%;
 }
