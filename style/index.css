@@ -197,10 +197,15 @@ body {
 }
 #navbar-login ul li {
   background-color: #972424;
-  padding: 10px 35px;
+  padding: 10px 25px;
   border-radius: 5px;
   list-style-type: none;
-  margin: ;
+}
+#navbar-login ul li:hover {
+  background-color: #ffffff;
+}
+#navbar-login ul li:hover a {
+  color: #972424;
 }
 #navbar-login ul li a {
   color: white;
@@ -208,9 +213,7 @@ body {
   font-size: 16px;
   text-shadow: 1px 1px 1px black;
 }
-#navbar-login ul li a:hover {
-  color: white;
-}
+
 .navbar-login-1 {
   margin-right: 10px;
 }
