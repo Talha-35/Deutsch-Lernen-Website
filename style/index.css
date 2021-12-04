@@ -8,7 +8,6 @@ body {
 
 #header {
   display: flex;
-  /* justify-content: center; */
   background-color: rgb(99, 92, 92);
   background-color: #4682b4;
   background-color: #383a3a;
@@ -22,7 +21,6 @@ body {
   width: 1500px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 #navbar-logo {
   display: flex;
@@ -49,8 +47,8 @@ body {
 #navbar-logo-image {
   margin: 3px;
   margin-left: 50px;
-  width: 75px;
-  height: 75px;
+  width: 55px;
+  height: 55px;
 }
 #navbar-list {
   display: flex;
@@ -66,7 +64,7 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   /* color: black; */
-  padding: 10px 12px;
+  padding: 5px 12px;
   display: block;
   background-color: transparent;
   transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
@@ -196,7 +194,7 @@ body {
   align-items: center;
 }
 #navbar-login ul li {
-  background-color: #972424;
+  background-color: #802525;
   padding: 10px 25px;
   border-radius: 5px;
   list-style-type: none;
@@ -222,7 +220,7 @@ body {
 
 /* Resimli Kisim*/
 #main-container {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .main-image {
   max-width: 1500px;
