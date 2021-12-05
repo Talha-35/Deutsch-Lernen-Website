@@ -551,6 +551,12 @@ body {
     padding: 5px 10px;
     font-size: 14px;
   }
+  #navbar-list ul li ul li a {
+    font-size: 14px;
+  }
+  #navbar-list ul li ul li:hover ul li a {
+    font-size: 14px;
+  }
 
    #navbar-login ul li {
     padding: 10px 15px;
@@ -643,7 +649,14 @@ body {
     font-size: 13px;
     padding: 5px 5px;
   }
-
+ 
+  #navbar-list ul li ul li a {
+    font-size: 13px;
+  }
+  #navbar-list ul li ul li:hover ul li a {
+    font-size: 13px;
+  }
+  
   #navbar-login ul li {
     padding: 10px 15px;
   }
@@ -741,9 +754,15 @@ body {
   }
 
   #navbar-list ul li a {
-    font-size: 14px;
+    font-size: 13px;
     padding: 1px 1px;
 
+  }
+  #navbar-list ul li ul li a {
+    font-size: 13px;
+  }
+  #navbar-list ul li ul li:hover ul li a {
+    font-size: 13px;
   }
   #navbar-list ul li:nth-child(3) {
     display: none;
