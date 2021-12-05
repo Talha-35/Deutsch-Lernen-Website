@@ -141,7 +141,7 @@ body {
   background-color: rgb(195, 199, 199);
   border: 0.3px solid rgb(186, 180, 180);
   box-shadow: 1px 1px 2px rgb(71, 71, 71);
-  width: 17%;
+  width: 15%;
   /* height: 680px; */
   padding: 10px;
   margin-bottom: 10px;
@@ -328,4 +328,187 @@ font-size: 20px;
 .unterstreichen-zeitformen {
   border-bottom: 0.5px solid rgb(167, 163, 163);
   width: 100%;
+}
+
+
+/* XX-Large Devices */
+@media (max-width : 1900px) {
+  #alltagsdeutsch-container {
+    max-width: 1600px;
+    margin: 0px auto;
+  }
+  .absatz-alltagsdeutsch1 {  
+    font-size: 18px;
+  }
+  .absatz-alltagsdeutsch2 {    
+    font-size: 18px;
+  }
+  .unter-menu-wichtigwerb{
+    width: 19%;
+  }  
+  .unter-menu-starkewerb{
+    width: 18%;  
+  } 
+  #indem-container {
+    max-width: 1600px;
+  }
+  #indem-container p {
+    font-size: 19px;
+    line-height: 28px;
+  }
+}
+
+
+/* XX-Large Devices */
+@media (max-width : 1600px) {
+  #alltagsdeutsch-container {
+    max-width: 1400px;
+    margin: 0px auto;
+  }
+  .absatz-alltagsdeutsch1 {  
+    font-size: 18px;
+  }
+  .absatz-alltagsdeutsch2 {    
+    font-size: 18px;
+  }
+  .unter-menu-brief {    
+    width: 40%;
+  }  
+  .unter-menu-brief p {
+    font-size: 16px;
+  }
+  .unter-menu-wichtigwerb{
+    width: 20%;
+  }  
+  .unter-menu-starkewerb{
+    width: 20%;  
+  }  
+  #indem-container {
+    max-width: 1400px;
+  }
+  #indem-container p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+
+
+/* X-Large Devices */
+@media (max-width : 1400px) { 
+  #alltagsdeutsch-container {
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+  .alltagsdeutsch-title {
+    font-size: 23px !important;
+  }
+  .absatz-alltagsdeutsch1 {  
+    font-size: 17px;
+  }
+  .absatz-alltagsdeutsch2 {    
+    font-size: 17px;
+  }
+  .unter-menu-brief {    
+    width: 42%;
+  }  
+  .unter-menu-brief p {
+    font-size: 16px;
+  }  
+  .unter-menu-wichtigwerb{
+    width: 25%;
+  }  
+  .unter-menu-wichtigwerb p {
+    font-size: 16px;
+  }
+  .unter-menu-wichtigwerb p:nth-child(1) {
+    font-size: 21px;
+    color: blueviolet;
+  }
+  .unter-menu-starkewerb{
+    width: 25%;  
+  }  
+  .unter-menu-starkewerb p {
+    font-size: 16px;
+  }
+  .unter-menu-starkewerb p:nth-child(1) {
+    font-size: 21px;
+    color: blueviolet;
+  }  
+  #indem-container {
+    max-width: 1200px;
+  }
+  #indem-container p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+
+
+@media (max-width : 1200px) {  
+  
+  #alltagsdeutsch-container {
+    max-width: 992px;
+    margin: 0px auto;
+  }
+  .alltagsdeutsch-title {
+    font-size: 22px !important;
+  }
+  .absatz-alltagsdeutsch1 {  
+    font-size: 17px;
+  }
+  .absatz-alltagsdeutsch2 {    
+    font-size: 17px;
+  }
+  .unter-menu-brief {    
+    width: 60%;
+  }  
+  .unter-menu-brief p {
+    font-size: 16px;
+  }
+  .unter-menu-wichtigwerb{
+    width: 25%;
+  }  
+  .unter-menu-wichtigwerb p {
+    font-size: 16px;
+  }
+  .unter-menu-wichtigwerb p:nth-child(1) {
+    font-size: 21px;
+    color: blueviolet;
+  }
+  .unter-menu-starkewerb{
+    width: 25%;  
+  }  
+  .unter-menu-starkewerb p {
+    font-size: 16px;
+  }
+  .unter-menu-starkewerb p:nth-child(1) {
+    font-size: 21px;
+    color: blueviolet;
+  }
+  #indem-container {
+    max-width: 992px;
+  }
+  #indem-container p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width : 992px) {
+  
+}
+
+@media (max-width : 768px) {
+  
+}
+
+@media (max-width : 576px) {
+ 
+}
+
+
+/*Small Devices */
+@media (max-width : 375px) {
+
 }
