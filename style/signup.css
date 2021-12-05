@@ -3,156 +3,190 @@ body {
     padding: 0; 
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 .signup-container{
     /* margin: 10px auto;     */
     border-radius: 8px;
+    /* height: 100vh; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url("../assets/brandenburger-tor3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
 }
-
-.signup-container-image{
-    width: 40%;
+/* .signup-container-image{
     display: flex;
-    /* height: 100%; */
     align-items: center;
     justify-content: center;
+    margin: auto 0px;
     }
 
 .signup-container-image img{
-    width: 50%;
-    height: 80%;
+    width: 70%;
+    height: 50%;
     opacity: 0.9;
     border-radius: 8px;
-    }
+    } */
 
 .signup-container-form{
-    margin-left: -50px;
-    width: 50%;
+    padding: 0px 50px;
+    border-radius: 7px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    /* justify-content: space-between; */
+    justify-content: space-between;
     line-height:35px;
+    background-color: rgba(0, 0, 0, 0.9);
 }
-
 .signup-title{
-    width: 600px;
-    margin-bottom: 25px;
+    width: 700px;
+    /* margin-bottom: 25px; */
 }
 .signup-title-1{
-    color: #5138EE;
-    margin-bottom: -3px;
+    /* color: #5138EE;
+    margin-bottom: -3px; */
 }
-
-
-
-
+.signup-title-2{
+    color: rgb(204, 190, 190);
+}
 .signup-form-menu-label {
     margin: 10px 0px;
     display: flex;
     gap: 30px;
   }
-  
-
   .signup-form-menu-label label input {
     border-radius: 25px;
     font-size: 18px;
+    color: rgb(31, 23, 23);
   }
   .signup-form-menu-label label input::placeholder {
     font-size: 15px;
   }
   .signup-form-menu-label label {
     font-size: 17px;
+    color: rgb(202, 171, 171);
    }
- 
-  
   .signup-form-name {
     width: 300px;
     padding: 13px;
     margin-top: 2px;
   }
-  
   .passwort-check {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1000px;
-    
-}
-  .passwort-check-1{
-    margin-top: 30px;
-    
-}
-  .passwort-check-2{
-    margin-bottom: 30px;
-    
-}
- 
-  .passwort-check input{
-    margin-right: 5px;
-    
-}
-  .passwort-check label{
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-    font-size: 15px;
-    color: rgb(26, 25, 25);
-    font-weight: bold;
-}
-.passwort-check a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    color: #5138EE;
+    /* width: 1000px;     */
+  }
+    .passwort-check-1{
+      margin-top: 30px;    
+  }
+    .passwort-check-2{
+      margin-bottom: 30px;
+      
+  }
+  
+    .passwort-check input{
+      margin-right: 5px;
+      
+  }
+    .passwort-check label{
+      /* display: flex;
+      align-items: center;
+      justify-content: space-between; */
+      font-size: 15px;
+      color: rgb(204, 190, 190);
+      font-weight: bold;
+  }
+  .passwort-check a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      color: #7a6cd4;
+    }
+  .signup-button{
+      align-items: center;
+      display: inline-block;
+      width: 430px;
+      background-color: #5138EE;
+      text-decoration: none;
+      color: white;
+      padding: 8px 0px;
+      border-radius: 25px;
+  }
+  .signup-button:hover{
+      background-color: white;
+      color: #5138EE;
+      border: 0.5px solid #5138EE;
   }
 
-
-
-
-.signup-button{
-    align-items: center;
-    display: inline-block;
-    width: 430px;
-    background-color: #5138EE;
-    text-decoration: none;
-    color: white;
-    padding: 8px 0px;
-    border-radius: 25px;
-}
-.signup-button:hover{
-    background-color: white;
-    color: #5138EE;
-    border: 0.5px solid #5138EE;
-}
-
-.signup-signup{
-    margin-top: 5px;
-    width: 420px;
-    display: flex;
-    align-items: center;
-}
-.signup-signup p{
-    font-size: 16px;
-    font-weight: bold;
-}
-.signup-signup a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    color: #5138EE;
-    padding-left: 5px;
-}
-
-/* .signup-copyright {
-    margin-bottom: -200px;
-  } */
+  .signup-signup{
+      margin-top: 5px;
+      width: 420px;
+      display: flex;
+      align-items: center;
+  }
+  .signup-signup p{
+      font-size: 16px;
+      font-weight: bold;
+      color: rgb(204, 190, 190);
+  }
+  .signup-signup a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      color: #7a6cd4;
+      padding-left: 5px;
+  }
   .signup-copyright {
     margin-top: 50px;
     width: 420px;
+    display: flex;
   }
   .signup-copyright p {
-    color: rgb(63, 59, 59);
+    color: rgb(151, 145, 145);
   }
+
+
+
+
+
+
+/* XX-Large Devices */
+@media (max-width : 1900px) {
+
+}
+
+
+/* XX-Large Devices */
+@media (max-width : 1600px) {
+}
+
+
+
+/* X-Large Devices */
+@media (max-width : 1400px) { 
+  
+}
+
+
+@media (max-width : 1200px) {    
+  
+}
+
+@media (max-width : 992px) {
+  
+}
+
+@media (max-width : 768px) {
+  
+}
+
+@media (max-width : 576px) {
+ 
+}
+
+
+/*Small Devices */
+@media (max-width : 375px) {
+
+}
