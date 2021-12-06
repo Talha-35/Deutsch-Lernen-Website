@@ -2,26 +2,22 @@ body {
     margin: 0; 
     padding: 0; 
     font-family: Arial, Helvetica, sans-serif;
-}
-.login-container{
-    border-radius: 8px;
-    /* height: 100%; */
-    /* height: 100vh; */
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
     background-image: url("../assets/brandenburger-tor3.jpg");
     background-repeat:no-repeat;
     background-size: cover;
+}
+.login-container{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
 }
 /* .login-container-image{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto 0px;
-    } */
-
-/* .login-container-image img{
+    } 
+    .login-container-image img{
     width: 70%;
     height: 50%;
     opacity: 0.9;
@@ -43,13 +39,17 @@ body {
     margin-bottom: 35px;
 }
 .login-title-1{
-    /* color: #5138EE; */
-    /* margin-bottom: -10px; */
+    margin-bottom: 20px;
+}
+.login-title-2{
+    color: rgb(204, 190, 190);
+    margin-bottom: 40px;
 }
 
 
 .login-google-container{    
     display: flex;
+    margin-bottom: 20px;
 }
 .login-google{
     display: flex;
@@ -73,6 +73,7 @@ body {
 .login-sign{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .login-sign p:nth-child(2){
     color: rgb(133, 128, 128);
@@ -136,6 +137,7 @@ body {
     color: white;
     padding: 8px 0px;
     border-radius: 25px;
+    margin: 20px 0px;
 }
 .login-button:hover{
     background-color: white;
@@ -164,7 +166,7 @@ body {
     margin-bottom: -200px;
   } */
   .login-copyright {
-    margin-top: 50px;
+    margin-top: 75px;
     width: 420px;
   }
   .login-copyright p {
