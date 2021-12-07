@@ -247,7 +247,6 @@ font-size: 20px;
 .unterstreichen-fett {
   border-bottom: 5px solid rgb(138, 132, 132);
 }
-
 #indem-container {
   max-width: 1800px;
   margin: 0px auto;
@@ -261,7 +260,9 @@ font-size: 20px;
   font-size: 21px;
 }
 
-/*Relativsätze - Relativpronomen*/
+
+
+/*b1starkewerben - b1starkewerben*/
 
 #b1starkewerben-container {
   display: flex;
@@ -329,6 +330,26 @@ font-size: 20px;
   border-bottom: 0.5px solid rgb(167, 163, 163);
   width: 100%;
 }
+
+/* Zweiteilige Konnektoren */
+
+.konnektoren-unter-title{
+  color: rgb(59, 90, 30);
+  padding: 10px 0px;
+  font-size: 21px;
+  border-bottom: 0.5px solid rgb(167, 163, 163);
+  border-top: 0.5px solid rgb(167, 163, 163);
+  border-color: rgb(59, 90, 30);
+}
+.unterstreichen-konnektoren-2{
+  border-bottom: 1px solid rgb(196, 189, 189);
+  width: 15%;
+
+}
+
+
+
+
 
 
 /* XX-Large Devices */
