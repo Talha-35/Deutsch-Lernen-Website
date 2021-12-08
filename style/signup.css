@@ -2,7 +2,7 @@ body {
     margin: 0; 
     padding: 0; 
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../assets/brandenburger-tor3.jpg");
+    background-image: url("https://deutsch.uber.space/assets/brandenburger-tor3.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     display: flex;
