@@ -7,9 +7,8 @@
     <meta name="Deutsch Lernen" content="Deutsch Lernen" />
     <meta http-equiv="refresh" content="90" />
     <meta name="description" content="Lernen Sie leicht deutsche Sätze und Wörter! Leben in Deutschland" />
-    <meta rel="canonical" href="https://deutsch.uber.space">
     <meta name="keywords" content="Deutsch lernen, Grammatik, German Language" />
-    <link rel="shortcut icon" href="./assets/logo_round.png" type="image/png" />
+    <link rel="shortcut icon" href="assets/logo_round.png" type="image/png" />
     <meta name="author" content="Talha ÜLKÜMEN" />
     <title>Deutsch Lernen Website</title>
     <link rel="stylesheet" href="./style/index.css">
@@ -19,14 +18,15 @@
 
 <body>
     <header id="header">
+        
         <div id="navbar">
             <div id="navbar-logo">
-                <a href="index.html"><img id="navbar-logo-image" src="./assets/logo7.png" alt="Talha Ülkümen"></a>
+                <a href="index.html"><img id="navbar-logo-image" src="assets/logo1.png" alt="Talha Ülkümen"></a>
                 <p><span id="navbar-logo-span1">Deutsch</span> <span id="navbar-logo-span2">Lernen</span></p>
             </div>
             <div id="navbar-list">
                 <ul>
-                    <!-- <li class="navbar-list"> <a href="index.html"><i class="fas fa-home fa-xs navbar-icon" ></i>Home</a></li> -->
+                    <li class="navbar-list" id="deneme123"> <a href="index.html"><i class="fas fa-home fa-xs navbar-icon" ></i>Home</a></li>
                     <li class="navbar-list">
                         <a href="#"><i class="fas fa-book-reader fa-xs navbar-icon"></i>Deutsch Lektionen</a>
                         <ul id="submenu">
@@ -43,9 +43,9 @@
                                     <li><a href="./pages/b1-pages/konjunktion.html">Konjunktionen</a></li>   
                                     <li><a href="./pages/b1-pages/relativpronom.html">Relativsätze</a></li>
                                     <li><a href="./pages/b1-pages/zeitformen.html">Zeitformen</a></li>
-                                    <li><a href="./pages/b1-pages/zweiteiligekonnektoren.html">Zweiteilige Konnektoren</a></li>
                                     <li><a href="#">Leben in Deutschland</a></li>
                                     <li><a href="#">Bildbeschreibungen</a></li>
+                                    <li><a href="#">Zweiteilige Konnektoren</a></li>
                                     <li><a href="#">Gemeinsam etwas Planen</a></li>
                                 </ul>
                             </li>
@@ -79,8 +79,8 @@
                             </li>                          
                         </ul>
                     </li>
-                    <li class="navbar-list navbar-mobile-menu"><a href="#mobile-menu"><i class="fas fa-mobile-alt fa-xs navbar-icon"></i>Mobile Apk</a></li>
-                    <li class="navbar-list"><a href="#footer-menu"><i class="fas fa-phone fa-xs navbar-icon"></i>Kontakt</a></li>
+                    <!-- <li class="navbar-list navbar-mobile-menu"><a href="#mobile-menu"><i class="fas fa-mobile-alt fa-xs navbar-icon"></i>Mobile Apk</a></li> -->
+                    <!-- <li class="navbar-list"><a href="#footer-menu"><i class="fas fa-phone fa-xs navbar-icon"></i>Kontakt</a></li> -->
                     <li class="navbar-list"><a href="pages/uberuns.html"><i class="fas fa-info-circle fa-xs navbar-icon "></i>Über uns</a></li>
                 </ul>
             </div>
@@ -90,21 +90,63 @@
                     <li class="navbar-login navbar-login-2"><a href="./login.html" >Login</a></li>
                 </ul>
             </div>
+            <div id="navbar-toggle-button">
+                <ul>
+                    <li>
+                        <a href="#" class="toggle" id="toggle-button" onclick="toggleFunction">
+                            <i class="fa-solid fa-xl fa-bars white"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+
+        </div>
+        <div id="navbar-toggle">
+            <div id="navbar-toggle-container-1">
+                <img src="./assets/toggle.png" width="150px" height="150px" alt="">
+                <p class="navbar-toggle-title" id="navbar-toggle-title">Deutsch Lernen</p>
+                <p class="navbar-toggle-title" id="navbar-toggle-mail">tlhproductionn@gmail.com</p>
+            </div>
+            <div id="navbar-toggle-container-2">
+                <li class="navbar-toggle-list"> <a href="index.html"><i class="fas fa-home fa-xs navbar-icon" ></i>Home</a></li>
+                <li class="navbar-toggle-list">
+                <a href="#b1-grammatik"><i class="fas fa-book-reader fa-xs navbar-icon"></i>B1 Grammatikthemen</a>                
+                </li>
+                <li class="navbar-toggle-list">
+                <a href="#b2-grammatik"><i class="fas fa-book-reader fa-xs navbar-icon"></i>B2 Grammatikthemen</a>                
+                </li>
+                <li class="navbar-toggle-list">
+                <a href="#c1-grammatik"><i class="fas fa-book-reader fa-xs navbar-icon"></i>C1 Grammatikthemen</a>                
+                </li>
+                <li class="navbar-toggle-list"><a href="#mobile-menu"><i class="fas fa-mobile-alt fa-xs navbar-icon"></i>Mobile Apk</a></li>
+                <li class="navbar-toggle-list"><a href="#footer-menu"><i class="fas fa-phone fa-xs navbar-icon"></i>Kontakt</a></li>
+                <li class="navbar-toggle-list"><a href="pages/uberuns.html"><i class="fas fa-info-circle fa-xs navbar-icon "></i>Über uns</a></li>
+            </div>
+            <div>
+                -------------------
+            </div>
+            <div id="navbar-toggle-container-3">
+                <li class="navbar-toggle-list navbar-login-1"><a href="./signup.html">Sign Up</a></li>
+                <li class="navbar-toggle-list navbar-login-2"><a href="./login.html" >Login</a></li>
+            </div>
+
+               
         </div>
     </header>
 
     <main id="main-container">
         <section>
             <div class="main-image">
-                <img id="image" src="./assets/brandenburger-tor 1.jpg" alt="Deutsch Lernen">
+                <img id="image" src="assets/brandenburger-tor 1.jpg" alt="Deutsch Lernen">
             </div>
         </section>
         
         <section>
             <div id="grammer-menu" class="grammer-menu">
-                    <div class="container-grammer">
-                        <img src="./assets/brandenburger-tor3.jpg" alt=""  class="image-burger" width="375px" height="220px">
-                        <div class="grammatik-themen">
+                    <div id="b1-grammatik" class="container-grammer">
+                        <img src="./assets/brandenburger-tor3.jpg" alt=""  width="375px" height="220px" style="border-radius: 3px;">
+                        <div  class="grammatik-themen">
                             <h6 class="grammatik-themen-titel center">B1 Grammatikthemen </h6>
                             <p class="unterstreichen"></p>
                             <p><a href="./pages/b1-pages/alltagsdeutsch.html">►    Alltagsdeutsch</a></p>
@@ -116,16 +158,16 @@
                             <p><a href="./pages/b1-pages/konjunktion.html">►    Konjunktionen</a></p>   
                             <p><a href="./pages/b1-pages/relativpronom.html">►    Relativsätze</a></p>
                             <p><a href="./pages/b1-pages/zeitformen.html">►    Zeitformen</a></p>
-                            <p><a href="./pages/b1-pages/zweiteiligekonnektoren.html">►    Zweiteilige Konnektoren</a></p>
                             <p><a href="#">►    Leben in Deutschland</a></p>
                             <p><a href="#">►    Bildbeschreibungen</a></p>
                             <p><a href="#">►    Gemeinsam etwas planen</a></p>
+                            <p><a href="#">►    Zweiteilige Konnektoren</a></p>
                         </div>
                         
                     </div>
-                    <div class="container-grammer">
-                        <img src="./assets/brandenburger-tor4.jpg" alt="" class="image-burger" width="375px" height="220px">
-                        <div class="grammatik-themen">
+                    <div id="b2-grammatik" class="container-grammer">
+                        <img src="./assets/brandenburger-tor4.jpg" alt="" width="375px" height="220px" style="border-radius: 3px;">
+                        <div  class="grammatik-themen">
                             <h6 class="grammatik-themen-titel center">B2 Grammatikthemen</h6>
                             <p class="unterstreichen"></p>
                             <p><a href="#">►   Verben mit Präpositionen</a></p>
@@ -146,9 +188,9 @@
                     </div>
                     
                     
-                    <div class="container-grammer">
-                        <img src="./assets/brandenburger-tor5.jpg" alt=""class="image-burger" width="375px" height="220px">
-                        <div class="grammatik-themen">
+                    <div id="c1-grammatik" class="container-grammer">
+                        <img src="./assets/brandenburger-tor5.jpg" alt=" width="375px" height="220px" style="border-radius: 3px;">
+                        <div  class="grammatik-themen">
                             <h6 class="grammatik-themen-titel center">C1 Grammatikthemen</h6>
                             <p class="unterstreichen"></p>
                             <p><a href="#">►   C-1 Zitate</a></p>
@@ -213,7 +255,7 @@
             </section>
 
             <section class="form-menu">
-                    <form action="https://formspree.io/f/mdobnkyn" method="post">
+                    <form class="form-menu-container" action="https://formspree.io/f/mdobnkyn" method="post">
                         <div class="form-menu-label">
                             <label>Vorname *<br><input type="text" name="name" required placeholder="Dein Vorname" id="name" class="form-name" ></label>
                         </div>
@@ -234,7 +276,7 @@
                         </div>
     
                         <div class="form-menu-label">
-                            <label for="com"><input type="checkbox" name="datenschutz" value="datenschutz" id="com" />Hiermit bestätigst du unsere Datenschutzerklärung gelesen und verstanden zu haben.</label>
+                            <label for="com"><input type="checkbox" name="datenschutz" value="datenschutz" id="com" "/>Hiermit bestätigst du unsere Datenschutzerklärung gelesen und verstanden zu haben.</label>
                         </div>
     
                         <button type="submit" class="button-menu bold h16">Anmelden</button>
@@ -249,7 +291,7 @@
     <footer>
         <div id="footer-menu" class="footer-menu">
             <div class="footer-menu-alt">
-                <div class="footer-container white">
+                <div class="footer-container footer-container-pages white">
                     <b>Seiten</b>
                     <ul id="footer-list">
                         <li><a href="index.html">Home</a></li>
@@ -266,18 +308,30 @@
                 <div class="footer-container white">
                     <b>Sozialen Medien</b>
                     <ul class="sozialmedia">
-                        <li><a href="https://www.facebook.com" target="_blank"><img src="./assets/Facebook.png" width="30px" height="30px" alt=""></a></li>
-                        <li><a href="https://www.twitter.com" target="_blank"><img src="./assets/Twitter.png" width="30px" height="30px" alt=""></a> </li>
-                        <li><a href="https://www.instagram.com" target="_blank"><img src="./assets/instagram.png" width="30px" height="30px" alt=""></a></li>
-                        <li><a href="https://github.com/Talha-35" target="_blank"><img src="./assets/github-logo.png" width="30px" height="30px" alt=""></a></li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.deutschlernen11&hl=de&gl=US" target="_blank"><img src="./assets/googleplay.png" width="30px" height="30px" alt=""></a></li>
+                        <li><a href="https://www.facebook.com" target="_blank"><img src="assets/Facebook.png" width="30px" height="30px" alt=""></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><img src="assets/Twitter.png" width="30px" height="30px" alt=""></a> </li>
+                        <li><a href="https://www.instagram.com" target="_blank"><img src="assets/instagram.png" width="30px" height="30px" alt=""></a></li>
+                        <li><a href="https://github.com" target="_blank"><img src="assets/github-logo.png" width="30px" height="30px" alt=""></a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.deutschlernen11&hl=de&gl=US" target="_blank"><img src="assets/googleplay.png" width="30px" height="30px" alt=""></a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright white center h14" >
                 <p>@ 2021 by Talha Ülkümen | <a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
             </div>
+            <div class="copyright-2 white center h14" >
+                <div>
+                    <p>@ 2021 by Talha Ülkümen</p>
+                </div>                
+                <div>
+                    <a href="#">Impressum |</a>
+                    <a href="#">Datenschutz</a>
+                </div>
+            </div>
         </div>
     </footer>
+
+
+    <script src="./JS/Main.js"></script>
 </body>
 </html>
