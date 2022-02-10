@@ -21,7 +21,7 @@
         
         <div id="navbar">
             <div id="navbar-logo">
-                <a href="index.html"><img id="navbar-logo-image" src="assets/logo1.png" alt="Talha Ülkümen"></a>
+                <a href="index.html"><img id="navbar-logo-image" src="assets/logo2.png" alt="Talha Ülkümen"></a>
                 <p><span id="navbar-logo-span1">Deutsch</span> <span id="navbar-logo-span2">Lernen</span></p>
             </div>
             <div id="navbar-list">
@@ -93,8 +93,11 @@
             <div id="navbar-toggle-button">
                 <ul>
                     <li>
-                        <a href="#" class="toggle" id="toggle-button" onclick="toggleFunction">
-                            <i class="fa-solid fa-xl fa-bars white"></i>
+                        <a href="#" class="toggle" id="toggle-button-open" onclick="toggleOpen">
+                            <i id="menu-cizgi" class="fa-solid fa-xl fa-bars white"></i>
+                        </a>
+                        <a href="#" class="toggle toggle-button-close" id="toggle-button-close" onclick="toggleClose">
+                            <i id="menu-carpi" class="fa-solid fa-xl fa-xmark white"></i>
                         </a>
                     </li>
                 </ul>
@@ -105,26 +108,27 @@
         <div id="navbar-toggle">
             <div id="navbar-toggle-container-1">
                 <img src="./assets/toggle.png" width="150px" height="150px" alt="">
-                <p class="navbar-toggle-title" id="navbar-toggle-title">Deutsch Lernen</p>
                 <p class="navbar-toggle-title" id="navbar-toggle-mail">tlhproductionn@gmail.com</p>
             </div>
             <div id="navbar-toggle-container-2">
-                <li class="navbar-toggle-list"> <a href="index.html"><i class="fas fa-home fa-xs navbar-icon" ></i>Home</a></li>
-                <li class="navbar-toggle-list">
-                <a href="#b1-grammatik"><i class="fas fa-book-reader fa-xs navbar-icon"></i>B1 Grammatikthemen</a>                
+                <li class="navbar-toggle-list"> 
+                    <a  class="toggle-button-close" onclick="toggleClose" href="index.html"><i class="fas fa-home fa-xs navbar-icon" ></i>Home</a>
                 </li>
                 <li class="navbar-toggle-list">
-                <a href="#b2-grammatik"><i class="fas fa-book-reader fa-xs navbar-icon"></i>B2 Grammatikthemen</a>                
+                    <a  class="toggle-button-close" onclick="toggleClose" href="#b1-grammatik"><i class="fas fa-book-reader fa-xs navbar-icon"></i>B1 Grammatikthemen</a>                
                 </li>
                 <li class="navbar-toggle-list">
-                <a href="#c1-grammatik"><i class="fas fa-book-reader fa-xs navbar-icon"></i>C1 Grammatikthemen</a>                
+                    <a href="#b2-grammatik"  class="toggle-button-close" onclick="toggleClose" ><i class="fas fa-book-reader fa-xs navbar-icon"></i>B2 Grammatikthemen</a>                
                 </li>
-                <li class="navbar-toggle-list"><a href="#mobile-menu"><i class="fas fa-mobile-alt fa-xs navbar-icon"></i>Mobile Apk</a></li>
-                <li class="navbar-toggle-list"><a href="#footer-menu"><i class="fas fa-phone fa-xs navbar-icon"></i>Kontakt</a></li>
-                <li class="navbar-toggle-list"><a href="pages/uberuns.html"><i class="fas fa-info-circle fa-xs navbar-icon "></i>Über uns</a></li>
-            </div>
-            <div>
-                -------------------
+                <li class="navbar-toggle-list">
+                    <a  class="toggle-button-close" onclick="toggleClose" href="#c1-grammatik"><i class="fas fa-book-reader fa-xs navbar-icon"></i>C1 Grammatikthemen</a>                
+                </li>
+                <li class="navbar-toggle-list">
+                    <a  class="toggle-button-close" onclick="toggleClose" href="https://play.google.com/store/apps/details?id=com.deutschlernen11&hl=de&gl=US"><i class="fas fa-mobile-alt fa-xs navbar-icon"></i>Mobile Apk</a></li>
+                <li class="navbar-toggle-list">
+                    <a  class="toggle-button-close" onclick="toggleClose" href="#footer-menu"><i class="fas fa-phone fa-xs navbar-icon"></i>Kontakt</a></li>
+                <li class="navbar-toggle-list">
+                    <a  class="toggle-button-close" onclick="toggleClose" href="pages/uberuns.html"><i class="fas fa-info-circle fa-xs navbar-icon "></i>Über uns</a></li>
             </div>
             <div id="navbar-toggle-container-3">
                 <li class="navbar-toggle-list navbar-login-1"><a href="./signup.html">Sign Up</a></li>

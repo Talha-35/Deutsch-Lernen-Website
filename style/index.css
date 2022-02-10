@@ -32,6 +32,7 @@ body {
   color: black;
   font-size: 18;
   font-weight: bold;
+  margin-left: 5px;
 }
 #navbar-logo-span1 {
   color: #ffffff;
@@ -186,6 +187,8 @@ body {
 }
 #navbar-login ul li {
   background-color: #802525;
+  background-color: #FF910A;
+  background-color: #cf6038;
   padding: 10px 25px;
   border-radius: 5px;
   list-style-type: none;
@@ -1206,6 +1209,7 @@ body {
   } 
   #navbar-toggle{
     /* display: block; */
+    z-index: 999;
   }
 
   #navbar-toggle{
@@ -1224,15 +1228,17 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid #1a5f97;
   }
-  #navbar-toggle-title{
-    margin: 0px 0px;
-    font-size: 15px;
-    color: white;
+  #navbar-toggle-container-3{
+   
+    padding: 10px 0px 20px;
+    border-top: 1px solid #1a5f97;
   }
   #navbar-toggle-mail{
     margin: 0px 0px;
     font-size: 15px;
+    font-weight: 600;
     color: white;
+    color: #010305;
   }
   #navbar-toggle-container-2{
     margin-bottom: 25px;
@@ -1262,6 +1268,11 @@ body {
   }
   .navbar-toggle-list:nth-child(1){
     margin-top: 10px;
+  }
+
+  #menu-carpi{
+    display: none;
+    /* color: #f7226a; */
   }
 
   .main-image  {
