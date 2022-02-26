@@ -290,10 +290,10 @@ body {
   width: 230px;
 }
 .signup-title-1{
-    font-size: 23px !important;
+    font-size: 20px !important;
   }
   .signup-title-2{
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 
 .signup-form-menu-label {
@@ -301,21 +301,24 @@ body {
   }
   
   .signup-form-menu-label label {
-    font-size: 14px;
+    font-size: 13px;
    }
+   .signup-form-menu-label label input::placeholder {
+    font-size: 13px;
+  }
     .passwort-check label{
-      font-size: 13px;
+      font-size: 12px;
   }
 
   .signup-button{
       width: 250px;
-      font-size: 16px;
+      font-size: 14px;
   }
   .signup-signup p{
-      font-size: 14px;
+      font-size: 13px;
     }
     .signup-signup a{
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
