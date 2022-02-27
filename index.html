@@ -140,10 +140,41 @@
     </header>
 
     <main id="main-container">
-        <section>
+        <section class="main-container-image">
             <div class="main-image">
-                <img id="image" src="assets/brandenburger-tor 1.jpg" alt="Deutsch Lernen">
-            </div>
+                    <div class="slider">
+                        <p class="imageNummerText"></p>
+                        <img class="image" id="image-1" src="assets/brandenburger-tor 1.jpg" alt="Deutsch Lernen">
+                    </div>
+                    <div class="slider">
+                        <p class="imageNummerText"></p>
+                        <img class="image" id="image-2" src="assets/a (1).jpg" alt="Deutsch Lernen">
+                    </div>
+                    <div class="slider">
+                        <p class="imageNummerText"></p>
+                        <img class="image" id="image-3" src="assets/a (1).png" alt="Deutsch Lernen">
+                    </div>
+                    <div class="slider">
+                        <p class="imageNummerText"></p>
+                        <img class="image" id="image-4" src="assets/a (2).jpg" alt="Deutsch Lernen">
+                    </div>
+                    <div class="slider">
+                        <p class="imageNummerText"></p>
+                        <img class="image" id="image-5" src="assets/a (2).png" alt="Deutsch Lernen">
+                    </div>
+                    <div class="main-image-button">
+                        <a class="prev" onclick="prev()" >&#10094;</a>
+                        <a class="next" onclick="next()" >&#10095;</a>
+                    </div>
+                    <div class="dot-container">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
+                
         </section>
         
         <section>
@@ -337,5 +368,6 @@
 
 
     <script src="./JS/Main.js"></script>
+    <script src="./JS/Slider.js"></script>
 </body>
 </html>
