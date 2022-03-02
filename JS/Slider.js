@@ -1,6 +1,6 @@
 let slider = document.querySelectorAll(".slider");
 let imageNummerText = document.querySelectorAll(".imageNummerText");
-let dots = document.getElementsByClassName("dot");
+let circle = document.getElementsByClassName("circle");
 
 var sliderNum = 0;
 
@@ -26,11 +26,11 @@ function setSlider(num) {
     for (let i = 0; i < slider.length; i++) {
         imageNummerText[i].innerText = `${sliderNum + 1} / ${slider.length}`
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+    for (i = 0; i < circle.length; i++) {
+        circle[i].className = circle[i].className.replace(" active", "");
       }
     
-      dots[sliderNum].className += " active";
+      circle[sliderNum].className += " active";
     
 }
 
@@ -56,7 +56,8 @@ const time = setInterval(function() {
 }, 5000);
 
 
-// Move slider with keyboard arrows
+// for keyboard arrows
+
 document.onkeydown = checkKey;
 
 
