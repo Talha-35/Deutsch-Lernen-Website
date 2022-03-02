@@ -26,7 +26,7 @@ function setSlider(num) {
     for (let i = 0; i < slider.length; i++) {
         imageNummerText[i].innerText = `${sliderNum + 1} / ${slider.length}`
     }
-    for (i = 0; i < circle.length; i++) {
+    for (let i = 0; i < circle.length; i++) {
         circle[i].className = circle[i].className.replace(" active", "");
       }
     
