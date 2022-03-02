@@ -270,20 +270,21 @@ body {
   padding: 5px;
   border-radius: 20%;
 }
-.dot-container{
+.circle-container{
   position: absolute;
   bottom: 5px;
-  left: 45%;
+  transform: translateX(-50%);
+  left: 50%;
   cursor: pointer;
 }
-.dot{  
+.circle{  
   border: 1px solid rgb(37, 35, 35);
   border-radius: 50%;
   height: 15px;
   width: 15px;
   display: inline-block;
 }
-.dot:hover {
+.circle:hover {
   background-color: #bc1d1d;
 }
 .active {
