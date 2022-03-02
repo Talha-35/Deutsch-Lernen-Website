@@ -537,7 +537,9 @@ body {
   padding: 13px;
   margin-top: 2px;
 }
-
+.errorForm{
+  color: red;
+}
 /* FOOTER */
 
 .footer-menu {
