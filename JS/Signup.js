@@ -45,17 +45,32 @@ function mainSignupValidate() {
     function phoneValidate() {
         const telefonnummer = document.querySelector("#telefonnummer").value;
         const errorTelefonnummer = document.getElementById("errorTelefonnummer");
-        if (telefonnummer === "") {
+        const phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{6})$/;
+           
+        
+        if (isEmpty(telefonnummer)) {
             errorTelefonnummer.innerText = "Darf nicht leer sein"
-        }   else{
-            const isValidEmail = validatePhone(telefonnummer) !== null
-
-            if (!isValidEmail) {
-                errorTelefonnummer.innerText = "Telefonnummer ist nicht valide"
-            }    else {
-                errorTelefonnummer.innerText = ""
+            }   else if(telefonnummer.length <= 5){
+                errorTelefonnummer.innerText = "Muss mindestens sechs Zeichen lang sein"
+            } else if (validatePhone(telefonnummer) === null) {
+                errorTelefonnummer.innerText = "Muss eine valide Telefonnummer sein"
+            } else {
+                errorTelefonnummer.innerHTML =  ""
             }
-        }
+
+            /*
+            if (telefonnummer === "") {
+                errorTelefonnummer.innerText = "Darf nicht leer sein"
+            }  else if(telefonnummer.match(phoneno)) {
+                return true;
+            } else {
+                errorTelefonnummer.innerText = "Telefonnummer ist nicht valide"                
+                return false;
+            }*/
+
+            function isEmpty(telefonnummer) {
+                return telefonnummer.length === 0
+            }
     }
     function emailValidate() {
         const email = document.querySelector("#email").value;
