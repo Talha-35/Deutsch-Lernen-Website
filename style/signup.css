@@ -56,6 +56,12 @@ body {
     padding: 13px;
     margin-top: 2px;
   }
+  .errorForm{
+    color: red;
+  }
+  #errorPasswort1, #errorPasswort2 {
+    font-size: 12px;
+  }
   .passwort-check {
     display: flex;
     align-items: center;

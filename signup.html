@@ -41,29 +41,53 @@
           <div>
             <form action="https://formspree.io/f/mdobnkyn" method="post">
               <div class="signup-form-menu-label signup-form-menu-label-1">
-                  <label>Vorname *<br><input type="text" name="name" required placeholder="Dein Vorname" id="name" class="signup-form-name" ></label>
-                  <label>Nachname *<br><input type="text" name="name" required placeholder="Dein Nachname" id="name" class="signup-form-name" ></label>              
+                  <label>Vorname *<br>
+                    <input type="text" name="vorname" required placeholder="Dein Vorname" id="vorname" class="signup-form-name" >
+                    <br>
+                    <span class="errorForm" id="errorVorname" data-field="email"></span>
+                  </label>
+                  <label>Nachname *<br>
+                    <input type="text" name="nachname" required placeholder="Dein Nachname" id="nachname" class="signup-form-name" >
+                    <br>
+                    <span class="errorForm" id="errorNachname" data-field="email"></span>
+                  </label>              
               </div>
               <div class="signup-form-menu-label signup-form-menu-label-2">
-                  <label for="number ">Telefonnummer  *<br><input type="number " name="number " placeholder="Geben sie Ihr Telefonnummer ein " id="number " class="signup-form-name" /></label>
-                  <label for="Email">Email *<br><input type="email" name="email" placeholder="Geben sie Ihre Email Adresse ein" id="Email" class="signup-form-name" /></label>
+                  <label for="telefonnummer ">Telefonnummer  *<br>
+                    <input type="telefonnummer " name="telefonnummer " placeholder="Geben sie Ihr Telefonnummer ein " id="telefonnummer" class="signup-form-name" />
+                    <br>
+                    <span class="errorForm" id="errorTelefonnummer" data-field="email"></span>
+                  </label>
+                  <label for="email">Email *<br>
+                    <input type="email" name="email" placeholder="Geben sie Ihre Email Adresse ein" id="email" class="signup-form-name" />
+                    <br>
+                    <span class="errorForm" id="errorEmail" data-field="email"></span>
+                  </label>
               </div>
               <div class="signup-form-menu-label signup-form-menu-label-3">
-                  <label for="password ">Passwort  *<br><input type="t " name="password " placeholder="Geben sie Ihr Passwort ein " id="password " class="signup-form-name" /></label>
-                  <label for="password ">Passwort bestätigen  *<br><input type="password " name="password " placeholder="Geben sie wieder Ihr Passwort ein " id="password " class="signup-form-name" /></label>
+                  <label for="passwort1">Passwort  *<br>
+                    <input type="password" name="passwort1" placeholder="Geben sie Ihr Passwort ein " id="passwort1" class="signup-form-name" />
+                    <br>
+                    <span class="errorForm" id="errorPasswort1" data-field="email"></span>
+                  </label>
+                  <label for="password2">Passwort bestätigen  *<br>
+                    <input type="password" name="passwort2" placeholder="Geben sie wieder Ihr Passwort ein " id="passwort2" class="signup-form-name" />
+                    <br>
+                    <span class="errorForm" id="errorPasswort2" data-field="email"></span>
+                  </label>
               </div>
               <div class="signup-form-menu-label  passwort-check passwort-check-1">
-                  <label for="com"><input type="checkbox" name="datenschutz" value="datenschutz" id="com" />Ja, ich möchte E-Mails von Lettery Display erhalten.</label>
+                  <label for="cookies"><input type="checkbox" name="cookies" value="cookies" id="cookies" />Ja, ich möchte E-Mails von Lettery Display erhalten.</label>
               </div>
               <div class="signup-form-menu-label  passwort-check passwort-check-2">
-                  <label for="com"><input type="checkbox" name="datenschutz" value="datenschutz" id="com" />Ich stimme allen <a href="#">Bedingungen</a> und <a href="#">Datenschutzbestimmungen</a> zu </label>
+                  <label for="datenschutz"><input type="checkbox" name="datenschutz" value="datenschutz" id="datenschutz" />Ich stimme allen <a href="#">Bedingungen</a> und <a href="#">Datenschutzbestimmungen</a> zu </label>
                   
               </div>
             </form>
           </div>
 
           <div class="center">
-            <a class="signup-button center h18" href="#">Benutzerkonto erstellen </a>
+            <a class="signup-button center h18" id="buttonSignup" href="#">Benutzerkonto erstellen </a>
           </div>
 
           <div class="signup-signup">
@@ -81,6 +105,7 @@
     </div>
 </main>
 
+<script defer type="module" src="./JS/Signup.js"></script>
 
 </body>
 </html>
