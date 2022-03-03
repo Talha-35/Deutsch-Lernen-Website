@@ -7,6 +7,20 @@ button.addEventListener("click", (e) => {
     mainValidate()
 })
 
+var nachricht1 = document.getElementById("nachricht");
+var nachrichtzahl = document.getElementById("nachrichtzahl");
+
+nachricht1.onkeypress=function(){
+    if(nachricht1.value.length>=300) return false;
+}
+
+nachricht1.onkeyup=function(){ 
+    nachrichtzahl.value=(300-nachricht1.value.length);
+    if ((300 - nachricht1.value.length) <= 0) {
+        nachrichtzahl.style.color = "red"
+    }
+}
+
 
 function mainValidate() {
     function vornameValidate() {
@@ -65,20 +79,39 @@ function mainValidate() {
             errorBetreff.innerText = "Darf nicht leer sein"
         }   else if (!("ABCDEFGHIJKLMNIOPQRSTUVXYZ".split("").includes(betreff[0]))) {
             errorBetreff.innerText = "Muss mit einem Großbuchstaben beginnen"
-        }   else if(betreff.length >= 31){
-            errorBetreff.innerText = "Darf maximal 30 Zeichen lang sein"
+        }   else if(betreff.length >= 51){
+            errorBetreff.innerText = "Darf maximal 50 Zeichen lang sein"
         }  else {
                 errorBetreff.innerText = ""
         }
         
     }
-
-
-
-
-
+    function nachrichtValidate() {
+        const nachricht = document.getElementById("nachricht").value;
+        const errorNachricht = document.getElementById("errorNachricht");
+        
+        if (nachricht === "") {
+            errorNachricht.innerText = "Darf nicht leer sein\n"
+        }   else if (!("ABCDEFGHIJKLMNIOPQRSTUVXYZ".split("").includes(nachricht[0]))) {
+            errorNachricht.innerText = "Muss mit einem Großbuchstaben beginnen\n"
+        }   else if(nachricht.length >= 151){
+            errorNachricht.innerText = "Darf maximal 150 Zeichen lang sein\n"
+        }  else {
+            errorNachricht.innerText = ""
+        }
+        
+        
+    }
+    
+    
+    
+    
+    
     vornameValidate()
     nachnameValidate()
     emailValidate()
     betreffValidate()
+    nachrichtValidate()
 }
+
+

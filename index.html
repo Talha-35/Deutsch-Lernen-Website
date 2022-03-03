@@ -297,44 +297,47 @@
                 >
                     <div class="form-menu-label">
                         <label>Vorname *<br>
-                            <input type="text" name="name" placeholder="Dein Vorname" id="vorname" class="form-name" >
+                            <input type="text" name="vorname" placeholder="Dein Vorname" id="vorname" class="form-name" >
                             <br>
-                            <span class="errorForm" id="errorVorname" data-field="name"></span>
+                            <span class="errorForm" id="errorVorname" data-field="vorname"></span>
                         </label>
                     </div>
                     <div class="form-menu-label">
                         <label>Nachname *<br>
-                            <input type="text" name="name" placeholder="Dein Nachname" id="nachname" class="form-name" >
+                            <input type="text" name="nachname" placeholder="Dein Nachname" id="nachname" class="form-name" >
                             <br>
-                            <span class="errorForm" id="errorNachname" data-field="name"></span>
+                            <span class="errorForm" id="errorNachname" data-field="nachname"></span>
                         </label>
                     </div>
                     <div class="form-menu-label">
                         <label for="Email">Email *<br>
                             <input type="email" name="email" placeholder="Deine Email" id="email" class="form-name" />
                             <br>
-                            <span class="errorForm" id="errorEmail" data-field="name"></span>
+                            <span class="errorForm" id="errorEmail" data-field="email"></span>
                         </label>
                     </div>
                     <div class="form-menu-label">
                         <label for="Betreff ">Betreff  *<br>
-                            <input type="Betreff " name="Betreff " placeholder="Betreff " id="betreff" class="form-name" />
+                            <input type="Betreff " name="betreff " placeholder="Betreff " id="betreff" class="form-name" />
                             <br>
-                            <span class="errorForm" id="errorBetreff" data-field="name"></span>
+                            <span class="errorForm" id="errorBetreff" data-field="betreff"></span>
                         </label>
                     </div>
 
                     <div class="form-menu-label">
                         <label for="Nachricht">Nachricht</label><br>
-                        <textarea name="Nachricht" id="Nachricht" cols="54" rows="9" placeholder="Bitte schreiben Sie Ihre Kommentare "></textarea>
-                        <p>0 / 2000</p>
+                        <textarea name="Nachricht" class="nachricht" id="nachricht" cols="54" rows="9" placeholder="Bitte schreiben Sie Ihre Kommentare "></textarea>
+                        <br>
+                        <span class="errorForm" id="errorNachricht" data-field="nachricht"></span>
+                        Verbleibende Zeichenanzahl :<input type="button" id="nachrichtzahl" value="300">
+                        <!-- <p id="nachrichtzahl"></p> -->
                     </div>
 
                     <div class="form-menu-label">
                         <label for="com">
-                            <input type="checkbox" name="datenschutz" value="datenschutz" id="com"/>Hiermit bestätigst du unsere Datenschutzerklärung gelesen und verstanden zu haben.
+                            <input type="checkbox" onKeyPress="On_KeyPress()" name="datenschutz" value="datenschutz" id="com"/>Hiermit bestätigst du unsere Datenschutzerklärung gelesen und verstanden zu haben.
                             <br>
-                            <span class="errorForm" id="errorDatenschutz" data-field="name"></span>
+                            <span class="errorForm" id="errorDatenschutz" data-field="datenschutz"></span>
                         </label>
                     </div>
 
@@ -394,5 +397,6 @@
     <script  src="./JS/Main.js"></script>
     <script  src="./JS/Slider.js"></script>
     <script defer type="module" src="./JS/Form.js"></script>
+   
 </body>
 </html>

@@ -285,10 +285,10 @@ body {
   display: inline-block;
 }
 .circle:hover {
-  background-color: #bc1d1d;
+  background-color: #3c6b92;
 }
 .active {
-  background-color: #bc1d1d;
+  background-color: #3c6b92;
 }
 
 #menu {
@@ -539,6 +539,14 @@ body {
 }
 .errorForm{
   color: red;
+}
+
+#nachrichtzahl{
+  color: blue;
+  background-color: none;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(189, 189, 127);
 }
 /* FOOTER */
 
