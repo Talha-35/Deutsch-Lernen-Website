@@ -19,7 +19,7 @@ function mainValidate() {
         } else if(vorname.length <= 2){
             errorVorname.innerText = "Muss aus mindestens drei Zeichen bestehen "
         } else if(vorname.length >= 16){
-            errorVorname.innerText = "Muss aus mindestens 15 Zeichen bestehen "
+            errorVorname.innerText = "Darf maximal 15 Zeichen lang sein"
         } else {
             errorVorname.innerText = ""
         }
@@ -33,10 +33,8 @@ function mainValidate() {
             errorNachname.innerText = "Muss mit einem Großbuchstaben beginnen"
         }  else if(nachname.length <= 2){
             errorNachname.innerText = "Muss aus mindestens drei Zeichen bestehen "
-        } else if(nachname.length <= 2){
-            errorNachname.innerText = "Muss aus mindestens drei Zeichen bestehen "
         } else if(nachname.length >= 16){
-            errorNachname.innerText = "Muss aus mindestens 15 Zeichen bestehen "
+            errorNachname.innerText = "Darf maximal 15 Zeichen lang sein"
         } else {
             errorNachname.innerText = ""
         }
@@ -54,12 +52,24 @@ function mainValidate() {
             if (!isValidEmail) {
                 errorEmail.innerText = "E-Mail ist nicht valide"
                 console.log("%cFunktionert es ? ", "background-Color:pink")
-            } else {
+            }    else {
                 errorEmail.innerText = ""
             }
         }
     }
     function betreffValidate() {
+        const betreff = document.getElementById("betreff").value;
+        const errorBetreff = document.getElementById("errorBetreff");
+
+        if (betreff === "") {
+            errorBetreff.innerText = "Darf nicht leer sein"
+        }   else if (!("ABCDEFGHIJKLMNIOPQRSTUVXYZ".split("").includes(betreff[0]))) {
+            errorBetreff.innerText = "Muss mit einem Großbuchstaben beginnen"
+        }   else if(betreff.length >= 31){
+            errorBetreff.innerText = "Darf maximal 30 Zeichen lang sein"
+        }  else {
+                errorBetreff.innerText = ""
+        }
         
     }
 
