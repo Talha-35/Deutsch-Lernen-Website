@@ -105,6 +105,10 @@ body {
     padding: 13px;
     margin-top: 2px;
   }
+
+  .errorForm{
+    color: red;
+  }
   
   .passwort-check {
     display: flex;

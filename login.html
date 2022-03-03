@@ -58,10 +58,19 @@
           <div class="login-container-form2">
             <form action="https://formspree.io/f/mdobnkyn" method="post">
               <div class="login-form-menu-label">
-                <label for="Email">Email *<br><input type="email" name="email" placeholder="Geben sie Ihre Email Adresse ein" id="Email" class="login-form-name" /></label>
+                <label for="email">Email *<br>
+                  <input type="email" name="email" placeholder="Geben sie Ihre Email Adresse ein" id="email" class="login-form-name" />
+                  <br>
+                  <span class="errorForm" id="errorEmail" data-field="email"></span>
+                </label>
+
               </div>
               <div class="login-form-menu-label">
-                  <label for="password ">Password  *<br><input type="password " name="password " placeholder="Geben sie Ihr Passwort ein " id="password " class="login-form-name" /></label>
+                  <label for="passwort ">Passwort  *<br>
+                    <input type="passwort " name="passwort " placeholder="Geben sie Ihr Passwort ein " id="passwort" class="login-form-name" />
+                    <br>
+                    <span class="errorForm" id="errorPasswort" data-field="passwort"></span>
+                  </label>
               </div>
               <div class="login-form-menu-label passwort-check">
                   <label for="com"><input type="checkbox" name="datenschutz" value="datenschutz" id="com" />Remember me</label>
@@ -71,7 +80,7 @@
           </div>
 
           <div>
-            <a class="login-button center h18" href="#">Login</a>
+            <a class="login-button  center h18" id="buttonLogin" href="#">Login</a>
           </div>
 
           <div class="login-signup">
@@ -89,6 +98,7 @@
     </div>
 </main>
 
+<script defer type="module" src="./JS/Login.js"></script>
 
 </body>
 </html>
