@@ -1,4 +1,4 @@
-import {validateEmail, validatePhone} from "./Validators.js";
+import {validateEmail} from "./Validators.js";
 
 const button = document.querySelector("#buttonForm");
 
@@ -16,9 +16,9 @@ nachricht1.onkeypress=function(){
 
 nachricht1.onkeyup=function(){ 
     nachrichtzahl.value=(300-nachricht1.value.length);
-    if ((300 - nachricht1.value.length) <= 0) {
-        nachrichtzahl.style.color = "red"
-    }
+}
+if ((300 - nachricht1.value.length) <= 0) {
+    nachrichtzahl.style.color = "red"
 }
 
 
@@ -58,8 +58,6 @@ function mainValidate() {
         const errorEmail = document.getElementById("errorEmail");
         if (email === "") {
             errorEmail.innerText = "Darf nicht leer sein"
-        }   else if(!isNaN(email)) {
-            errorEmail.innerText = "Sie können keine Zahlen eingeben."
         }   else{
             const isValidEmail = validateEmail(email) !== null
 
