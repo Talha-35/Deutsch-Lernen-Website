@@ -1278,17 +1278,15 @@ body {
   #navbar-login {
     display: none;
   } 
+ 
+  
   #navbar-toggle{
-    /* display: block; */
     z-index: 999;
-  }
-
-  #navbar-toggle{
     position: absolute;
     top: 0px;
     left: 0;
     width: 270px;
-    height: 550px;
+    height: 450px;
     background-color: #4682b4;
   }
   #navbar-toggle-container-1{
@@ -1297,26 +1295,27 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #1a5f97;
   }
+  
+  #navbar-toggle-container-2{
+    margin-bottom: 15px;
+  }
   #navbar-toggle-container-3{
-   
+    margin-top: 25px;   
     padding: 10px 0px 20px;
     border-top: 1px solid #1a5f97;
   }
   #navbar-toggle-mail{
-    margin: 0px 0px;
+    margin: 0;
     font-size: 15px;
     font-weight: 600;
     color: white;
     color: #010305;
   }
-  #navbar-toggle-container-2{
-    margin-bottom: 25px;
-  }
-  #navbar-toggle-container-3{
-    margin-top: 25px;
-  }
+
   #navbar-toggle-button{
     display: block;
     display: flex;
