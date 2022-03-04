@@ -62,9 +62,9 @@ document.onkeydown = checkKey;
 
 
 function checkKey(e) {
-  if (e.keyCode == "37") { // sol ok tusu
+  if (e.keyCode == "37") { // left
     prev();
-  } else if (e.keyCode == "39") { // sag ok tusu
+  } else if (e.keyCode == "39") { // right
     next();
   }
 }   

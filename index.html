@@ -176,6 +176,16 @@
                 </div>
                 
         </section>
+
+        <section class="anime" id="animeAuto">
+            <div class="animeContainerAuto" id="animeContainerAuto">
+                <div class="imageAnime" id="imageAnimeAuto" >
+                        <img src="./assets/toggle.png"  alt="">
+                        <!-- <p>das leben ist zu kurz um deutsch zu lernen</p> -->
+                </div>
+            </div>
+        </section>
+        
         
         <section>
             <div id="grammer-menu" class="grammer-menu">
@@ -240,6 +250,22 @@
               </div>
         </section>
 
+        <section class="anime" id="animeManuel">
+            <div class="animeContainerManuel" id="animeContainerManuel">
+                <button class="imageAnimeButton" id="imageAnimeButtonLeft"> 
+                    <i class="fas fa-chevron-left"></i>Left
+                </button>
+                <div class="imageAnime" id="imageAnimeManuel" >
+                    
+                    <img src="./assets/toggle.png"  alt="">
+                    
+                </div>
+                <button  class="imageAnimeButton" id="imageAnimeButtonRight">
+                    Right<i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
         <section >
 
             <div id="mobile-menu" class="mobile-menu-container">
@@ -287,6 +313,29 @@
                 </div>
             </div>
 
+        </section>
+
+        <section>
+            <div class="image-menu" >
+                <div class="full-img" id="full-img-box">
+                    <img src="" id="full-img">
+                    <span onclick="closeImage()">X</span>
+                </div>
+                <div class="image-menu1" id="image-menu">
+                    <img src="assets/images/1.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/2.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/3.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/4.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/5.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/6.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/7.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/8.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/9.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/10.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/11.jpg" onclick="openImage(this.src)" >
+                    <img src="assets/images/12.jpg" onclick="openImage(this.src)" >
+                </div>
+            </div>
         </section>
 
         <section class="form-menu">
@@ -351,6 +400,11 @@
 
 
     <footer>
+        <div>
+            <a href="#" class="buttonTop" id="buttonTop"> 
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
         <div id="footer-menu" class="footer-menu">
             <div class="footer-menu-alt">
                 <div class="footer-container footer-container-pages white">
@@ -393,10 +447,13 @@
         </div>
     </footer>
 
-
+    
+            
+    
     <script defer src="./JS/Main.js"></script>
     <script defer src="./JS/Slider.js"></script>
     <script defer type="module" src="./JS/Form.js"></script>
+    
    
 </body>
 </html>
