@@ -847,6 +847,10 @@ body {
   .animeContainerManuel, .animeContainerAuto {
     max-width: 1300px;   
   }
+  .image-menu{
+    max-width: 1300px;    
+  }
+  
 }
 @media (max-width : 1400px) {
   #navbar {
@@ -958,6 +962,28 @@ body {
   .animeContainerManuel, .animeContainerAuto{
     max-width: 1100px;
   }
+  .image-menu{
+    max-width: 1100px;
+  }
+  
+    .full-img img{
+    max-width: 800px;
+  } 
+  
+  .image-menu1 {
+    gap: 40px;
+  }
+  .image-menu1 img{
+    width: 280px;
+  }
+  .full-img span{
+    top: 11%;
+    right: 10%;
+    font-size: 28px;
+  }
+  
+  
+
 
 }
 @media (max-width : 1200px) {
@@ -1063,6 +1089,30 @@ body {
   }
   .animeContainerManuel, .animeContainerAuto{
     max-width: 1000px;
+  }
+  
+  .image-menu{
+    max-width: 1000px;
+  }
+  
+    .full-img img{
+    max-width: 750px;
+  } 
+
+  .image-menu1 img{
+    width: 260px;
+  }
+  .full-img span{
+    top: 11%;
+    right: 10%;
+    font-size: 25px;
+  }
+  #imageAnimeButtonLeft{
+    font-size: 17px;
+  }
+  
+  #imageAnimeButtonRight{
+    font-size: 17px;
   }
   
 }
@@ -1195,6 +1245,26 @@ body {
     max-width: 850px;
   }  
 
+  .image-menu{
+    max-width: 850px;
+  }
+  
+    .full-img img{
+    max-width: 660px;
+  } 
+
+  .image-menu1 {
+    gap: 40px;
+  }
+  .image-menu1 img{
+    width: 200px;
+  }
+  .full-img span{
+    top: 13%;
+    right: 8%;
+  }
+  
+
 }
 @media (max-width : 900px) {
   #navbar {
@@ -1306,7 +1376,32 @@ body {
   .animeText {
     font-size: 16px;
   }
+  .image-menu{
+    max-width: 750px;
+  }
   
+    .full-img img{
+    max-width: 600px;
+  } 
+
+  .image-menu1 {
+    gap: 45px;
+  }
+  
+  .full-img span{
+    top: 15%;
+    right: 8%;
+    font-size: 23px;
+  }
+  #imageAnimeButtonLeft{
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  #imageAnimeButtonRight{
+    margin-right: 10px;
+    font-size: 16px;
+  }
 }
 @media (max-width : 750px) {
   #navbar {
@@ -1446,6 +1541,34 @@ body {
   .animeContainerManuel, .animeContainerAuto{
     max-width: 500px;
   }
+  .image-menu{
+    max-width: 500px;
+    padding: 35px 0;
+  }
+  
+    .full-img img{
+    max-width: 500px;
+  } 
+
+  .image-menu1 {
+    gap: 50px;
+  }
+  .image-menu1 img{
+    width: 200px;
+  }
+  .full-img span{
+    top: 17%;
+    font-size: 23px;
+  }
+  #imageAnimeButtonLeft{
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  
+  #imageAnimeButtonRight{
+    margin-right: 5px;
+    font-size: 15px;
+  }
 }
 @media (max-width : 580px) {
   #navbar {
@@ -1490,6 +1613,7 @@ body {
   #navbar-toggle-container-2{
     margin-bottom: 15px;
   }
+ 
   #navbar-toggle-container-3{
     margin-top: 25px;   
     padding: 10px 0px 20px;
@@ -1513,7 +1637,9 @@ body {
   #navbar-toggle-button ul li{
     list-style-type: none;    
   }
-  
+  #navbar-toggle-button ul li a{
+    text-decoration: none;
+  }
   .navbar-toggle-list{
     list-style-type: none;
     padding: 5px 0px 5px 10px;
@@ -1677,6 +1803,24 @@ body {
   .animeText {
     font-size: 16px;
   }
+  .image-menu{
+    max-width: 400px;
+    
+  }
+  
+    .full-img img{
+    max-width: 400px;
+  } 
+
+  .image-menu1 {
+    gap: 10px;
+  }
+  .image-menu1 img{
+    width: 180px;
+  }
+  .full-img span{
+    top: 20%;
+  }
 }
 @media (max-width : 430px) {
   #navbar {
@@ -1817,6 +1961,31 @@ body {
   .animeText {
     font-size: 14px;
   }
+  .image-menu{
+    max-width: 320px;
+    padding: 20px 0;
+  }
+  
+    .full-img img{
+    max-width: 300px;
+  } 
+
+  .image-menu1 {
+    gap: 10px;
+  }
+  .image-menu1 img{
+    width: 140px;
+  }
+  #imageAnimeButtonLeft{
+    margin-left: 3px;
+    font-size: 14px;
+  }
+  
+  #imageAnimeButtonRight{
+    margin-right: 3px;
+    font-size: 14px;
+  }
+ 
 }
 @media (max-width : 350px) {
   #navbar {
